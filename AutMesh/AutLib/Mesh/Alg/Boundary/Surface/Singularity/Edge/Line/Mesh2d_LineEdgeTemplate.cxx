@@ -1,0 +1,1 @@
+#include <Mesh2d_LineEdgeTemplate.hxx>

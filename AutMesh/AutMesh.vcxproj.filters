@@ -1,0 +1,1911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AutLib">
+      <UniqueIdentifier>{8d979d91-b5f6-4a4e-ad0b-c0a651e9f097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh">
+      <UniqueIdentifier>{d059ebc5-a0f7-4192-8845-e80f9be49283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg">
+      <UniqueIdentifier>{36a04414-3d89-4bf3-885d-5c60276f5355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Data">
+      <UniqueIdentifier>{15e96b88-2cdd-4d89-9588-293f6defbf4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities">
+      <UniqueIdentifier>{c8c01d3f-8733-488e-a4ae-ac0899d8663a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor">
+      <UniqueIdentifier>{49b64eb8-51c0-49d9-9737-0997e5972863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\System">
+      <UniqueIdentifier>{cff7c65e-e109-4e86-96f9-e4387ab29f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront">
+      <UniqueIdentifier>{83bca797-33ca-464d-931d-df299878af9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary">
+      <UniqueIdentifier>{567929ab-5bf5-469a-860e-df978a3e2f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve">
+      <UniqueIdentifier>{9d04ad19-b616-40aa-86d1-4fd1289bfc71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\2d">
+      <UniqueIdentifier>{49d868fc-7d88-4720-acda-373c634b47ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\Entity">
+      <UniqueIdentifier>{d5e06d31-ed5d-41b8-91b8-8ceaf451b549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\Iteration">
+      <UniqueIdentifier>{a1b32f95-1cf8-4094-9b8e-ba6254cf6e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\Length">
+      <UniqueIdentifier>{aac1c675-378d-4e6e-b7cc-7b82eab87c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\Length\Function">
+      <UniqueIdentifier>{29f780e7-e532-4c23-b5ee-ae3069c4a286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Edge">
+      <UniqueIdentifier>{2518cbef-bf35-49ab-9fdb-0134a08d5924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Element">
+      <UniqueIdentifier>{792441a5-f31c-47db-81e5-606656d6e7f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Entity">
+      <UniqueIdentifier>{be5ee524-43dc-493b-a1b9-fde2a5864fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Facet">
+      <UniqueIdentifier>{2642ad1e-4b69-483c-9ec1-00a7dc455ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Node">
+      <UniqueIdentifier>{dee00b7e-635a-4417-a877-8216521b34e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Node\2d">
+      <UniqueIdentifier>{39c377e5-3c42-4792-abf2-7f348f7d3c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Node\3d">
+      <UniqueIdentifier>{17c1227b-9e26-4723-bc0b-e4de13e3dad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Element\2d">
+      <UniqueIdentifier>{c060c220-cf16-40c6-9815-0ebe699afe5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Element\3d">
+      <UniqueIdentifier>{fed6f80b-fa7e-4bc6-a00e-1c33f90088f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Edge\2d">
+      <UniqueIdentifier>{bb9e9cb9-ea50-433d-99d6-1ad4fed3ce1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Edge\3d">
+      <UniqueIdentifier>{ad362008-aa28-4f27-a071-d8fb38609f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Facet\3d">
+      <UniqueIdentifier>{286982c2-45bb-4779-aa26-bb38e35b0799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Core">
+      <UniqueIdentifier>{4f8d95ff-989c-4d40-af0d-61644470b286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Data">
+      <UniqueIdentifier>{91d38300-afdd-4923-9f85-fc92d6b7ad13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities">
+      <UniqueIdentifier>{d631f745-5d84-472c-8297-d95692cf05e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Plane">
+      <UniqueIdentifier>{1531525d-286a-4efd-8032-8f90dc22812b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Surface">
+      <UniqueIdentifier>{98063c78-bede-4d1d-bce1-877e09467f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Volume">
+      <UniqueIdentifier>{1e95f7e4-7ee1-4886-b557-e63a6a472761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Node">
+      <UniqueIdentifier>{a4ca9167-a777-4241-ae49-5b9cba0a591f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge">
+      <UniqueIdentifier>{9d726da7-976e-4bef-b9b2-ff858926edb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Facet">
+      <UniqueIdentifier>{8102691b-ee0d-4208-a071-c035f1902e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Element">
+      <UniqueIdentifier>{5744809b-9bf2-4e7d-af1a-cbe53c1bf4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Front">
+      <UniqueIdentifier>{3c027b6d-ea65-473b-8a35-4e45264722f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d">
+      <UniqueIdentifier>{2ad8d3c2-7752-4b6f-8a33-b48a0be56ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\3d">
+      <UniqueIdentifier>{6e472466-21b0-4545-9ad6-2b0195e2c2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d">
+      <UniqueIdentifier>{ca68a854-cfb9-4a0a-a5df-f49e400e5d06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d">
+      <UniqueIdentifier>{658bbea6-62d8-4bf4-bce8-f50b12e6f236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d">
+      <UniqueIdentifier>{c3b32484-386a-4770-9abd-58ef18dd260c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\3d">
+      <UniqueIdentifier>{092a9fe4-3cd4-4d18-8bfb-033b979c769e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers">
+      <UniqueIdentifier>{bf5e2fec-a8db-4b3d-abb7-f659d81d4468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node">
+      <UniqueIdentifier>{9e26606f-d569-4542-8686-91f7c3dd7b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\edge">
+      <UniqueIdentifier>{d5052001-1ca1-4c12-8ffd-277bf5af0b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\entity">
+      <UniqueIdentifier>{d7dded9e-16f2-4ee3-80c1-ad1fa1cc97e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d">
+      <UniqueIdentifier>{c745a39a-8271-40d9-835a-508f6e715e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd">
+      <UniqueIdentifier>{69b13ba0-704f-40d7-b789-2a61d9ea49ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node">
+      <UniqueIdentifier>{2c77c582-17dc-40c9-883c-e1307aedaacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge">
+      <UniqueIdentifier>{63058368-6956-400d-9c48-d68d468cc922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Facet">
+      <UniqueIdentifier>{e098747b-fa80-4dcb-9899-b772c4dfb92d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d">
+      <UniqueIdentifier>{401ef0d0-53c2-435b-ae41-3c618f574219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\3d">
+      <UniqueIdentifier>{3d32cb65-71f7-4a00-b9dc-5de2d5c187e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Facet\3d">
+      <UniqueIdentifier>{76923368-f13c-4d0a-b191-24d4b2bbdba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d">
+      <UniqueIdentifier>{2d217e16-ba3d-4bf0-9bac-c2ec458df7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\3d">
+      <UniqueIdentifier>{664bfa92-1c85-4390-8f82-0365d308fe74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Bnd">
+      <UniqueIdentifier>{e12c20a9-57bf-44e4-9db3-f8d81bdcefa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Bnd\Node">
+      <UniqueIdentifier>{ec59ac63-c4e9-4191-9722-a5f7b58b8a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Bnd\Edge">
+      <UniqueIdentifier>{ad437bff-f97a-4dab-9df1-3a237fffd4a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Bnd\Facet">
+      <UniqueIdentifier>{38f6ad08-2e7b-482e-a6d3-dcad512c338c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Bnd\Node\2d">
+      <UniqueIdentifier>{0ac8e125-31e2-4ef2-b287-f1e4d7106989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Bnd\Node\3d">
+      <UniqueIdentifier>{40206f43-ff7f-4deb-8262-4ad91eeaeb9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Bnd\Edge\2d">
+      <UniqueIdentifier>{106ec749-c6d5-41a5-99c3-ad11214f5461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Bnd\Edge\3d">
+      <UniqueIdentifier>{6f742aab-6d9c-4397-915c-21b65c8bc4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Entities\Bnd\Facet\3d">
+      <UniqueIdentifier>{4bc62f6b-34df-488e-804b-0e0be629a586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\LineIntegrand">
+      <UniqueIdentifier>{b056d641-8526-4dda-ba83-efe9e12371fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\MetricMap">
+      <UniqueIdentifier>{44572622-2b4f-4306-a0c6-3e726303dd1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\QualityMap">
+      <UniqueIdentifier>{836d1a0c-9461-4e43-854f-5d1d9ad5967b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap">
+      <UniqueIdentifier>{0b44a41f-56a2-4401-9008-a66ea65db323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso">
+      <UniqueIdentifier>{0857a845-38df-4285-a025-5a773a066b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso">
+      <UniqueIdentifier>{fbcff106-0172-4f1e-9cba-57d35783495b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface">
+      <UniqueIdentifier>{5bc3b43e-d472-40c4-8e30-da84a777d840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive">
+      <UniqueIdentifier>{7840027d-1710-4e9d-9661-35c1c5a3b14a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform">
+      <UniqueIdentifier>{5bb63e16-c3f1-42df-99a6-241cfd75c755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\2d">
+      <UniqueIdentifier>{15162b2f-2435-485c-9c57-0d809bff81f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\3d">
+      <UniqueIdentifier>{d62c6417-3210-4cc0-be10-8021a0ecaa5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\Approximation">
+      <UniqueIdentifier>{5e39b4f2-80a7-4614-9986-1409791d42f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\FullIntegration">
+      <UniqueIdentifier>{c30bde6e-e27d-4783-b655-ba1dab3a8736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\Standard">
+      <UniqueIdentifier>{6b840903-8716-433a-b9fa-ffb3c87d2488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\LineIntegrand\Function">
+      <UniqueIdentifier>{dd52a322-9f83-4ed3-881b-36d5d62a3993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface">
+      <UniqueIdentifier>{c4e3a602-1ade-46c0-bfee-531ed5dd24c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Approx">
+      <UniqueIdentifier>{a2a815fb-952f-4279-840a-9a5c90606454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact">
+      <UniqueIdentifier>{a73e7065-2997-4ed3-b403-43770ea99ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\Uniform">
+      <UniqueIdentifier>{deb409ef-b0bc-4343-80e8-3f7c20f4ee69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration">
+      <UniqueIdentifier>{f81df412-b37c-4e20-a84e-6419e9a3642e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\Uniform\2d">
+      <UniqueIdentifier>{223d7aca-4037-4753-b23a-a4560d031714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d">
+      <UniqueIdentifier>{71eab098-e0f7-486f-8e5b-4be2e6143800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\LineIntg">
+      <UniqueIdentifier>{0ec05ce2-e2c4-4941-b228-6024d4240be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm">
+      <UniqueIdentifier>{1306c069-1051-4919-9761-f1833417671e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint">
+      <UniqueIdentifier>{7163f563-e152-4231-9d46-7a7bf4d0d95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\MetricMap\2d">
+      <UniqueIdentifier>{bd17bfed-633d-42f1-8107-c90f4389009f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\NelderMead">
+      <UniqueIdentifier>{d807f8a2-3320-4d6e-9c64-b3e7685bd3b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std">
+      <UniqueIdentifier>{53a385a6-cb34-41fa-ab90-d6f3a76e628c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter">
+      <UniqueIdentifier>{0836caf4-38a2-4065-813a-11ff5a9c446d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom">
+      <UniqueIdentifier>{4f99f1f4-b876-4c25-bd5d-d0f17b31f88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Mesh">
+      <UniqueIdentifier>{ca261b92-3a90-4f92-958a-83b45a550fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Mesh\Data">
+      <UniqueIdentifier>{5d6bd5fc-ccaa-4268-b122-9a9f856a0379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Mesh\BackGround">
+      <UniqueIdentifier>{7357fcd4-0294-46c9-8fb8-670ab08b1b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Mesh\Data\2d">
+      <UniqueIdentifier>{a929befe-2f93-44ff-8514-75e8db8e76b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Approximation">
+      <UniqueIdentifier>{c36bede9-f4bb-4e49-a889-2bccc930fa7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Knit">
+      <UniqueIdentifier>{1144adcc-35e4-4a41-8e25-c502d4456bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\TopologyAnalysis">
+      <UniqueIdentifier>{9b26e246-01ba-4816-945f-d161282ffb8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\OptmPoint">
+      <UniqueIdentifier>{115bf402-a0b6-4431-8404-764d9a0a2bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\OptmPoint\Subdivision">
+      <UniqueIdentifier>{4cd36a22-fc17-43de-adb4-1a8b8e1e115e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton">
+      <UniqueIdentifier>{6affc1e0-35dd-4d86-bc48-f00b6ab71314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction">
+      <UniqueIdentifier>{ff42b602-492e-427e-82f4-e6d0388a9fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\Entity\2d">
+      <UniqueIdentifier>{859a4152-b346-4ce3-8a0f-94e2a312e357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\Entity\3d">
+      <UniqueIdentifier>{c7bf379d-5f2f-4be6-9411-76a6434be899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation">
+      <UniqueIdentifier>{04c30ced-7d4d-408f-b988-3af659c95f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function">
+      <UniqueIdentifier>{3baa56d2-6720-47f9-ac59-c11ef386524d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\2d">
+      <UniqueIdentifier>{6eb65eb9-9100-4bfc-9c3c-834f8019c897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\2d">
+      <UniqueIdentifier>{1fc81529-4726-45e3-bf2d-5ca75d699418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation\2d">
+      <UniqueIdentifier>{59eda952-d841-482f-afd4-d0df011988d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad">
+      <UniqueIdentifier>{e34bb0d0-7305-445c-8efe-05a8857edad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface">
+      <UniqueIdentifier>{0c31d709-5500-4714-860c-0e7023a01bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Approximation\Space">
+      <UniqueIdentifier>{6c66598e-3f22-4f21-9eb3-d8e45b14f473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Approximation\SurfaceMetric">
+      <UniqueIdentifier>{06ceb5ef-dd2b-4c18-954c-dc370080c52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Approximation\SurfaceMetric\Approx">
+      <UniqueIdentifier>{58d50515-23fb-4a66-8524-805733c5a886}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Mesh\BackGround\Iso">
+      <UniqueIdentifier>{b3ef364c-c090-429b-95af-60ef87bca7f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Mesh\BackGround\AnIso">
+      <UniqueIdentifier>{4a3f6be5-4bb9-4784-9071-dfc342eaf509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Mesh\BackGround\Iso\2d">
+      <UniqueIdentifier>{55112918-0471-4790-a964-902e9034a127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Mesh\BackGround\Iso\3d">
+      <UniqueIdentifier>{5409412d-fb2e-437e-8996-2a46394c2b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Mesh\BackGround\AnIso\2d">
+      <UniqueIdentifier>{f05bdb9e-1172-4f07-a498-b18ebca78d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Mesh\BackGround\AnIso\3d">
+      <UniqueIdentifier>{8df96440-7443-4607-b4c8-a8464087aea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Tools">
+      <UniqueIdentifier>{e331d392-8e09-4087-bb92-d6dc9826112b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary\Plane">
+      <UniqueIdentifier>{48252352-68aa-41dd-8584-bcf6154fc525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary\Surface">
+      <UniqueIdentifier>{be18a9dc-13f3-4fe2-977c-06184950f7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\PlaneCurve">
+      <UniqueIdentifier>{5b66ce6e-828d-4bf1-9b45-de3922c03172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity">
+      <UniqueIdentifier>{8746ea72-141f-4de3-8069-f559ea0d5559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node">
+      <UniqueIdentifier>{e2df8481-82c9-4fec-b07b-bf74e007532f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge">
+      <UniqueIdentifier>{10a16dcb-cbbf-429c-b46e-d424d5071db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole">
+      <UniqueIdentifier>{0d282042-6a4f-47fc-b4e6-958d7fdec8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line">
+      <UniqueIdentifier>{960a09e0-fd50-4c1b-8716-6d7ce3aacd73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole">
+      <UniqueIdentifier>{7e995327-c71a-4e14-a63f-d86f0a6bb419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line">
+      <UniqueIdentifier>{156c4fd1-f683-479b-a433-55a602fdb2d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane">
+      <UniqueIdentifier>{6821ad30-8895-4b81-af6f-f5c2252f32cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity">
+      <UniqueIdentifier>{e5f210d5-6e2d-4957-9148-2d682f3ae55b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone">
+      <UniqueIdentifier>{e78c74a3-9466-49b2-99f6-bfc339fb8e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Curve">
+      <UniqueIdentifier>{5cae29fb-9c55-4938-81ba-f8783e0465c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Type">
+      <UniqueIdentifier>{1911912b-0904-4158-a4c3-4156f29eb88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\PlaneCurve\GModel">
+      <UniqueIdentifier>{ef8c1121-4acb-45f5-aabc-581ad0611cee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\PlaneWire">
+      <UniqueIdentifier>{8cc4a20f-4633-41e2-bfd4-11450b6d491d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\PlaneWire\GModel">
+      <UniqueIdentifier>{37f35d53-4ec8-434b-a5ba-de63654e9803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\GModel">
+      <UniqueIdentifier>{c3ffa171-2aeb-431e-99b7-9e6d92d840d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Line">
+      <UniqueIdentifier>{3afaa367-79ae-4d37-b747-1bbeb91842f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Pole">
+      <UniqueIdentifier>{59331084-1a2f-40b1-8711-92dca22b075f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Pole\Corner">
+      <UniqueIdentifier>{c3d63b02-de1e-47d8-9a9a-aa58dd648e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Pole\Loop">
+      <UniqueIdentifier>{eea643b5-a399-4131-81d1-6bb9a67f8d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Pole\PartialSide">
+      <UniqueIdentifier>{ca4d22a1-827a-45d5-9e4f-fec6715861d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Pole\WholeSide">
+      <UniqueIdentifier>{a722e38c-3c22-4bf1-9125-4c6966d57024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Curve\Pole">
+      <UniqueIdentifier>{4d881dc7-a35e-4f3a-9f72-fc661f0e39d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Curve\Line">
+      <UniqueIdentifier>{4e7563d8-aa77-472c-8cde-471678a317b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Line\Corner">
+      <UniqueIdentifier>{b41167b5-396e-411c-8ea5-80298136fd24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Line\Dangle">
+      <UniqueIdentifier>{cf319718-b4f3-48ad-add5-7a873206d77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Line\Loop">
+      <UniqueIdentifier>{f0008472-d2ae-4a78-a9dd-aa3b197a29f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Line\TwoSided">
+      <UniqueIdentifier>{74af06d5-b557-4a87-a1e8-7ccc3480629d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Zone\Line\WholeSide">
+      <UniqueIdentifier>{6ce80fcf-076f-4700-9d09-44ec21bc3e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\TypeDetection">
+      <UniqueIdentifier>{0d53eb5e-55e2-40d6-8a49-80f95b6357fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Approximation\SurfaceMetric\Coloring">
+      <UniqueIdentifier>{c0d92d29-ec19-4fc1-90c0-4787c4c910f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\Horizon">
+      <UniqueIdentifier>{bc1d8906-01ea-4eb4-9044-2819cec95413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Knit\Chain">
+      <UniqueIdentifier>{18511787-3e89-48ea-b483-d9d1146c4293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Knit\Chain\edge">
+      <UniqueIdentifier>{86667076-08b3-4751-817f-a59c52c98519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Knit\Chain\node">
+      <UniqueIdentifier>{e2a4e23a-a7ce-41e8-9ae1-4063650004e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Knit\Chain\node\2d">
+      <UniqueIdentifier>{346aa232-9f4c-4562-a469-9982d58a40ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\Singularity\RetrieveBSplinesBoundaries">
+      <UniqueIdentifier>{e1991cf1-5749-499f-aa8d-866b97b17025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Boundary\Plane\2d">
+      <UniqueIdentifier>{d55f7df4-8c67-4719-a5fe-365396bddf49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\PlaneCurve\2d">
+      <UniqueIdentifier>{cf9c12d5-c56a-4266-9122-1d30395f5190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\PlaneWire\2d">
+      <UniqueIdentifier>{eeaf890b-c0eb-48bf-b898-a9e25f232e5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\2d">
+      <UniqueIdentifier>{ff0bc5a6-1540-4c7d-933a-8df85322bf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Data\Cavity">
+      <UniqueIdentifier>{6072927a-a500-453f-b8ad-a35cc28401f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Data\Front">
+      <UniqueIdentifier>{fd54145b-2cfe-4a18-bcdb-ac49d3740b5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d">
+      <UniqueIdentifier>{db604113-785d-4366-a1c2-af13720ac6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Data\Front\3d">
+      <UniqueIdentifier>{80def63b-1c04-4c41-ab30-2d4d5a3dc6af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Core\2d">
+      <UniqueIdentifier>{4c45ae7b-9cba-46f2-9234-455767afbe29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Plane\2d">
+      <UniqueIdentifier>{b5290d16-6c75-48f2-a587-1453c82b8c88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface\Imperfection">
+      <UniqueIdentifier>{d4aaa3d1-fecb-499c-b541-4f373b210935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface\Imperfection\defect">
+      <UniqueIdentifier>{94dbdf95-3543-4642-bd8e-13892b7d36a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface\Imperfection\defect\wire">
+      <UniqueIdentifier>{3b80f8d6-efeb-44cc-8887-c6a4d39775ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface\Imperfection\defect\wire\open">
+      <UniqueIdentifier>{74ee1546-0ded-45b5-a18a-2fdbf56e717e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface\Imperfection\defect\wire\intersect">
+      <UniqueIdentifier>{19a244e0-00fc-4f19-bdfc-b37ba5b94773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface\Imperfection\defect\wire\outer">
+      <UniqueIdentifier>{4b343bcc-eebd-4ac9-83fd-7964ce78a2e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface\Imperfection\defect\wire\order">
+      <UniqueIdentifier>{b1fe1076-0dda-424a-b5da-b773b27a1767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface\Imperfection\singular">
+      <UniqueIdentifier>{424e0ca2-dffe-447d-9800-05b2fb1b872e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface\Imperfection\singular\common">
+      <UniqueIdentifier>{eb71978c-6640-4ee0-b5b1-8551cd16fc27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Surface\Imperfection\singular\general">
+      <UniqueIdentifier>{a666fc06-e3b7-4ec0-bf25-dace95c6fa35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\AnIso2d">
+      <UniqueIdentifier>{4d890d2c-6b7b-4a85-b06b-c10d284d52fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\NormalizedMetric">
+      <UniqueIdentifier>{2b4985de-61b1-4789-8689-0d4ecae13060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Info">
+      <UniqueIdentifier>{32ce95ce-5555-4247-b796-db7f5948015b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\PlaneEqualizer">
+      <UniqueIdentifier>{998d2d4e-e089-4834-9aed-f39efb913a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Geom\PlaneNurbs">
+      <UniqueIdentifier>{957653cf-de1b-436b-befe-dfcde670f1d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Surface">
+      <UniqueIdentifier>{90bc086c-3ed1-4126-8269-6d5228cbc6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface">
+      <UniqueIdentifier>{d98ab0ce-e3b2-4eb4-91a6-60cfcbf31fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface">
+      <UniqueIdentifier>{28c39a0c-569a-4884-8f68-250482751f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface">
+      <UniqueIdentifier>{3a924c5a-db89-4d15-b93c-8640f307ddb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Core\Surface">
+      <UniqueIdentifier>{939b6cad-9a70-4dbd-8e89-62ef123d18a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface">
+      <UniqueIdentifier>{656e5a2a-131b-4887-8418-58b9089c21db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface">
+      <UniqueIdentifier>{0456fd2c-8d9d-4618-a3e1-ed445bd256f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Alg\Curve\Surface">
+      <UniqueIdentifier>{29fe94d5-385f-45ea-bac3-fd61abc6252c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Mesh_Curve.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Mesh_CurveInfo.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Length\Function\Mesh_CurveLength_Function.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\Length\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Length\Function\Mesh_CurveLength_FunctionI.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\Length\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Entity\Mesh_CurveEntity.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Length\Mesh_CurveLength.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\Length</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Length\Mesh_CurveLengthI.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\Length</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Entity\Mesh_Entity.hxx">
+      <Filter>AutLib\Mesh\Entities\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Entity\Mesh_EntityAdaptorM.hxx">
+      <Filter>AutLib\Mesh\Entities\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Entity\Mesh_NamedEntity.hxx">
+      <Filter>AutLib\Mesh\Entities\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Node\Mesh_Node.hxx">
+      <Filter>AutLib\Mesh\Entities\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Node\Mesh_NodeAdaptor.hxx">
+      <Filter>AutLib\Mesh\Entities\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Node\2d\Mesh2d_Node.hxx">
+      <Filter>AutLib\Mesh\Entities\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Node\3d\Mesh3d_Node.hxx">
+      <Filter>AutLib\Mesh\Entities\Node\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_ElementFwd.hxx">
+      <Filter>AutLib\Mesh\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Facet\Mesh_Facet.hxx">
+      <Filter>AutLib\Mesh\Entities\Facet</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Edge\Mesh_Edge.hxx">
+      <Filter>AutLib\Mesh\Entities\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Edge\Mesh_EdgeAdaptor.hxx">
+      <Filter>AutLib\Mesh\Entities\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\Mesh_Element.hxx">
+      <Filter>AutLib\Mesh\Entities\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\Mesh_ElementAdaptor.hxx">
+      <Filter>AutLib\Mesh\Entities\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Edge\2d\Mesh2d_Edge.hxx">
+      <Filter>AutLib\Mesh\Entities\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Edge\3d\Mesh3d_Edge.hxx">
+      <Filter>AutLib\Mesh\Entities\Edge\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_Element.hxx">
+      <Filter>AutLib\Mesh\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_ElementAdaptor.hxx">
+      <Filter>AutLib\Mesh\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_ElementAdaptorTemplate.hxx">
+      <Filter>AutLib\Mesh\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_ElementTraits.hxx">
+      <Filter>AutLib\Mesh\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\3d\Mesh3d_Element.hxx">
+      <Filter>AutLib\Mesh\Entities\Element\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\3d\Mesh3d_ElementAdaptor.hxx">
+      <Filter>AutLib\Mesh\Entities\Element\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\3d\Mesh3d_ElementAdaptorFwd.hxx">
+      <Filter>AutLib\Mesh\Entities\Element\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Element\3d\Mesh3d_ElementAdaptorTemplate.hxx">
+      <Filter>AutLib\Mesh\Entities\Element\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Facet\3d\Mesh3d_Facet.hxx">
+      <Filter>AutLib\Mesh\Entities\Facet\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Facet\3d\Mesh3d_FacetAdaptor.hxx">
+      <Filter>AutLib\Mesh\Entities\Facet\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Facet\3d\Mesh3d_FacetTraits.hxx">
+      <Filter>AutLib\Mesh\Entities\Facet\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\System\Mesh_EntityCounterM.hxx">
+      <Filter>AutLib\Mesh\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\System\Mesh_RegisterEntityM.hxx">
+      <Filter>AutLib\Mesh\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\System\Mesh_RegisterEntityM_Avl.hxx">
+      <Filter>AutLib\Mesh\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\System\Mesh_SizeMapMacros.hxx">
+      <Filter>AutLib\Mesh\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\System\Mesh_TypeTraits.hxx">
+      <Filter>AutLib\Mesh\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Aft_Node.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Aft_NodeI.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Aft_NodeAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_NodeAnIsoFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_NodeAnIsoTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_NodeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_NodeTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\3d\Aft3d_NodeAnIsoFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\3d\Aft3d_NodeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\3d\Aft3d_NodeTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Aft_Edge.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Aft_EdgeI.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_EdgeAnIsoFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_EdgeAnIsoTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_EdgeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_EdgeTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d\Aft3d_EdgeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d\Aft3d_EdgeTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d\Aft3d_Facet.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d\Aft3d_FacetAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d\Aft3d_FacetFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d\Aft3d_FacetTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementAnIsoFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementAnIsoTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\3d\Aft3d_ElementFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\3d\Aft3d_ElementTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Aft_Element.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Aft_ElementDim.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_Element.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementAnIso.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementAnIsoAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\3d\Aft3d_Element.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\3d\Aft3d_ElementAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_Edge.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_EdgeAnIso.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d\Aft3d_Edge.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\3d\Aft3d_Node.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_Node.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_NodeAnIso.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node\Aft_NodeIdentifier.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node\Aft_NodeIdentifierAnIso.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\entity\Aft_EntityIdentifier.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\edge\Aft2d_EdgeIdentifierAnIso.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Node\Mesh_BndNode.hxx">
+      <Filter>AutLib\Mesh\Entities\Bnd\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Facet\Mesh_BndFacet.hxx">
+      <Filter>AutLib\Mesh\Entities\Bnd\Facet</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Edge\Mesh_BndEdge.hxx">
+      <Filter>AutLib\Mesh\Entities\Bnd\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh_SizeMap.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh2d_SizeMap.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh_SizeMapTraits.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh3d_SizeMap.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\LineIntegrand\Function\Mesh_LineIntegrand_Function.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\LineIntegrand\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\LineIntegrand\Function\Mesh_LineIntegrand_FunctionI.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\LineIntegrand\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\LineIntegrand\Mesh_LineIntegrand.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\LineIntegrand</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Mesh_MetricMap.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\MetricMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Mesh_MetricMapTraits.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\MetricMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\MetricMap2d_Surface.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\MetricMap\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurface.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurfaceLowerBounded.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh2d_SizeMapAnIso.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface\Mesh_SurfaceSizeMap.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface\Mesh_SurfaceSizeMapI.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface\SizeMap2d_Surface.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\2d\SizeMap2d_Uniform.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\3d\SizeMap3d_Uniform.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\3d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm\SizeMap2d_FullIntAnIso_NelderMeadObject.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm\SizeMap2d_FullIntAnIso_NelderMeadObjectI.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntAnIso.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntAnIsoI.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\2d\Mesh2d_MetricMap.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\MetricMap\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std\SizeMap2d_AnIso_OptmPointStd.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_AnIso_OptmPoint_IterCorrect.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\Standard\SizeMap2d_StandardAdapt.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\Standard</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\GeoMesh_Background.hxx">
+      <Filter>AutLib\Geom\Mesh\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\GeoMesh_BackgroundI.hxx">
+      <Filter>AutLib\Geom\Mesh\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\GeoMesh_BackgroundInfo.hxx">
+      <Filter>AutLib\Geom\Mesh\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\Data\GeoMesh_Data.hxx">
+      <Filter>AutLib\Geom\Mesh\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\Data\GeoMesh_DataI.hxx">
+      <Filter>AutLib\Geom\Mesh\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\Data\2d\GeoMesh2d_Data.hxx">
+      <Filter>AutLib\Geom\Mesh\Data\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\Mesh_CurveOptmPoint_Correction.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Correction</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\Mesh_CurveOptmPoint_CorrectionI.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Correction</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Entity\2d\Mesh2d_CurveEntity.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\Entity\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\Mesh_CurveOptmPoint_Newton_Function.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\Mesh_CurveOptmPoint_Newton_FunctionI.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\2d\Mesh2d_CurveOptmPoint_Correction.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Correction\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\2d\Mesh2d_CurveOptmPoint_Newton_Function.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation\Mesh_CurveOptmPoint_Newton_Derivation.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation\2d\Mesh2d_CurveOptmPoint_Newton_Derivation.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Mesh_CurveOptmPoint_Newton.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Newton</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Mesh_CurveOptmPoint_NewtonI.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Newton</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Mesh_CurveI.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\2d\Mesh2d_Curve.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Approximation\Space\Geo_ApprxSpace.hxx">
+      <Filter>AutLib\Geom\Approximation\Space</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Approximation\SurfaceMetric\Approx\Geo_ApprxSurfMetric.hxx">
+      <Filter>AutLib\Geom\Approximation\SurfaceMetric\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Approximation\SurfaceMetric\Approx\Geo_ApprxSurfMetricInfo.hxx">
+      <Filter>AutLib\Geom\Approximation\SurfaceMetric\Approx</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\Iso\2d\GeoMesh2d_Background.hxx">
+      <Filter>AutLib\Geom\Mesh\BackGround\Iso\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\AnIso\2d\GeoMesh2d_MetricBackground.hxx">
+      <Filter>AutLib\Geom\Mesh\BackGround\AnIso\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\Data\2d\GeoMesh2d_DataFwd.hxx">
+      <Filter>AutLib\Geom\Mesh\Data\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\Iso\2d\GeoMesh2d_BackgroundFwd.hxx">
+      <Filter>AutLib\Geom\Mesh\BackGround\Iso\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\AnIso\2d\GeoMesh2d_MetricBackgroundFwd.hxx">
+      <Filter>AutLib\Geom\Mesh\BackGround\AnIso\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Tools\Mesh_CadTools.hxx">
+      <Filter>AutLib\Cad\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Tools\Mesh_CadToolsI.hxx">
+      <Filter>AutLib\Cad\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Node\Mesh_BndNode_Position.hxx">
+      <Filter>AutLib\Mesh\Entities\Bnd\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Edge\Mesh_BndEdge_Position.hxx">
+      <Filter>AutLib\Mesh\Entities\Bnd\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\Mesh_CurveOptmPoint_CorrectionInfo.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Correction</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\2d\Mesh2d_CurveAnIso.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Mesh2d_SingNodeTemplate.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole\Mesh2d_PoleNodeTemplate.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole\Mesh2d_PoleNodeTemplateI.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line\Mesh2d_LineNodeTemplate.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line\Mesh2d_LineNodeTemplateI.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Mesh2d_SingEdgeTemplate.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole\Mesh2d_PoleEdgeTemplate.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole\Mesh2d_PoleEdgeTemplateI.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line\Mesh2d_LineEdgeTemplate.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line\Mesh2d_LineEdgeTemplateI.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Node\Mesh_BndNodeGeomAdaptor.hxx">
+      <Filter>AutLib\Mesh\Entities\Bnd\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Edge\Mesh_BndEdgeGeomAdaptor.hxx">
+      <Filter>AutLib\Mesh\Entities\Bnd\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Aft_BndNodeAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Aft_BndNode.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Aft_BndEdgeAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Aft_BndEdge.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Facet\Aft_BndFacet.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Facet</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Curve\Mesh_SingularityCurve.hxx">
+      <Filter>AutLib\Geom\Singularity\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Type\Mesh_SingularityType.hxx">
+      <Filter>AutLib\Geom\Singularity\Type</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Mesh_SingularityZone.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\PlaneCurve\GModel\Mesh2d_gPlnCurve.hxx">
+      <Filter>AutLib\Cad\PlaneCurve\GModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\PlaneCurve\Mesh_PlnCurveI.hxx">
+      <Filter>AutLib\Cad\PlaneCurve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\PlaneCurve\Mesh_PlnCurve.hxx">
+      <Filter>AutLib\Cad\PlaneCurve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Mesh_SurfPlane.hxx">
+      <Filter>AutLib\Cad\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\PlaneWire\Mesh_PlnWire.hxx">
+      <Filter>AutLib\Cad\PlaneWire</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\PlaneWire\Mesh_PlnWireI.hxx">
+      <Filter>AutLib\Cad\PlaneWire</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\PlaneWire\GModel\Mesh2d_gPlnWire.hxx">
+      <Filter>AutLib\Cad\PlaneWire\GModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Mesh_SurfPlaneI.hxx">
+      <Filter>AutLib\Cad\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\GModel\Mesh2d_gSurfPlane.hxx">
+      <Filter>AutLib\Cad\Plane\GModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Pole\SingularityZone_Pole.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Pole</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\SingularityZone_Line.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Pole\Corner\SingularityZone_Pole_Corner.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Pole\Corner</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Pole\Loop\SingularityZone_Pole_Loop.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Pole\Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Pole\PartialSide\SingularityZone_Pole_PartialSide.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Pole\PartialSide</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Pole\WholeSide\SingularityZone_Pole_WholeSide.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Pole\WholeSide</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\Corner\SingularityZone_Line_Corner.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line\Corner</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\Dangle\SingularityZone_Line_Dangle.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line\Dangle</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\Loop\SingularityZone_Line_Loop.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line\Loop</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\TwoSided\SingularityZone_Line_TwoSided.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line\TwoSided</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\WholeSide\SingularityZone_Line_WholeSide.hxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line\WholeSide</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Approximation\SurfaceMetric\Coloring\Geo_ColoringSurfMetric.hxx">
+      <Filter>AutLib\Geom\Approximation\SurfaceMetric\Coloring</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\TypeDetection\Singularity_TypeDetectionInfo.hxx">
+      <Filter>AutLib\Geom\Singularity\TypeDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\TypeDetection\Singularity_TypeDetection.hxx">
+      <Filter>AutLib\Geom\Singularity\TypeDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Horizon\Singularity_Horizon.hxx">
+      <Filter>AutLib\Geom\Singularity\Horizon</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Knit\Chain\Knit_Chain.hxx">
+      <Filter>AutLib\Geom\Knit\Chain</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Knit\Chain\Knit_ChainI.hxx">
+      <Filter>AutLib\Geom\Knit\Chain</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Knit\Chain\Knit_ChainRegister.hxx">
+      <Filter>AutLib\Geom\Knit\Chain</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Knit\Chain\edge\Knit_ChainEdge.hxx">
+      <Filter>AutLib\Geom\Knit\Chain\edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Knit\Chain\edge\Knit_ChainEdgeAdaptor.hxx">
+      <Filter>AutLib\Geom\Knit\Chain\edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Knit\Chain\node\Knit_ChainNode.hxx">
+      <Filter>AutLib\Geom\Knit\Chain\node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Knit\Chain\node\Knit_ChainNodeAdaptor.hxx">
+      <Filter>AutLib\Geom\Knit\Chain\node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Knit\Chain\node\2d\Knit2d_ChainDirectedNode.hxx">
+      <Filter>AutLib\Geom\Knit\Chain\node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Knit\Chain\node\2d\Knit2d_ChainNode.hxx">
+      <Filter>AutLib\Geom\Knit\Chain\node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\TypeDetection\Singularity_TypeDetectionI.hxx">
+      <Filter>AutLib\Geom\Singularity\TypeDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\RetrieveBSplinesBoundaries\Singularity_RetrieveBSplinesBoundaries.hxx">
+      <Filter>AutLib\Geom\Singularity\RetrieveBSplinesBoundaries</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Curve\Line\Singularity_LineCurve.hxx">
+      <Filter>AutLib\Geom\Singularity\Curve\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Curve\Pole\Singularity_PoleCurve.hxx">
+      <Filter>AutLib\Geom\Singularity\Curve\Pole</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundaries.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundariesI.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Plane\2d\TopoMesh2d_PlaneBoundaries.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Plane\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_SegmentEdge.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_SegmentEdgeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_SegmentNodeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_SegmentNode.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\PlaneCurve\2d\Mesh2d_PlnCurve.hxx">
+      <Filter>AutLib\Cad\PlaneCurve\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\PlaneWire\2d\Mesh2d_PlnWire.hxx">
+      <Filter>AutLib\Cad\PlaneWire\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\2d\Mesh2d_SurfPlane.hxx">
+      <Filter>AutLib\Cad\Plane\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\PlaneCurve\2d\Mesh2d_PlnCurveFwd.hxx">
+      <Filter>AutLib\Cad\PlaneCurve\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\PlaneWire\2d\Mesh2d_PlnWireFwd.hxx">
+      <Filter>AutLib\Cad\PlaneWire\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Aft_BndNodeI.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Aft_FrontGlobalData.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Aft_FrontInfo.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Cavity\Aft_CavityData.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Cavity</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoGlobalData.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoGlobalDataFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoInfo.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoInfoAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoInfoAdaptorFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoInfoFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontGlobalData.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontGlobalDataFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfo.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoAdaptorFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoAdaptorTemplate.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoTemplate.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoTemplateI.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Data\Mesh_Counters.hxx">
+      <Filter>AutLib\Mesh\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Data\Mesh_GlobalData.hxx">
+      <Filter>AutLib\Mesh\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Data\Mesh_QualityMap.hxx">
+      <Filter>AutLib\Mesh\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Core\Aft_Core.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Core\Aft_CoreI.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Core\2d\Aft2d_Core.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Core\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Core\2d\Aft2d_CoreAnIso.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Core\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Plane\Mesh_Plane.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Plane\Mesh_PlaneI.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Plane\2d\Mesh2d_Plane.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Plane\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Plane\2d\Mesh2d_PlaneAnIso.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Plane\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Mesh_SurfaceTemplate.hxx">
+      <Filter>AutLib\Cad\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\Mesh_ImpSurface.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\ImpSurf_defect.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\defect</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\ImpSurf_defectWire.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\defect\wire</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\intersect\ImpSurf_defWire_Intersect.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\defect\wire\intersect</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\intersect\ImpSurf_defWire_IntersectI.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\defect\wire\intersect</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\order\ImpSurf_defWire_Order.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\defect\wire\order</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\order\ImpSurf_defWire_OrderI.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\defect\wire\order</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\open\ImpSurf_defWire_Open.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\defect\wire\open</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\open\ImpSurf_defWire_OpenI.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\defect\wire\open</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\singular\ImpSurf_singular.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\singular</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\singular\common\SingSurf_Common.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\singular\common</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\singular\general\SingSurf_General.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\singular\general</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\TopoMesh2d_GModelBoundaries.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Aft_BndEdgeI.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Aft_TBndNode.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNode.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNodeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNodeAnIso.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNodeAnIsoFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Aft_TBndEdge.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdge.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdgeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdgeAnIsoFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNodeTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNodeAnIsoTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_TBndNodeTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_TBndNodeAnIsoTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdgeTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdgeAnIsoTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdgeAnIso.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_TBndEdgeTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_TBndEdgeAnIsoTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Aft_TBndNodeI.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Aft_TBndEdgeI.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\GModel\Mesh2d_gSurfPlaneFwd.hxx">
+      <Filter>AutLib\Cad\Plane\GModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundariesInfo.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Mesh_SurfaceTemplateI.hxx">
+      <Filter>AutLib\Cad\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\NormalizedMetric\Geo_NormalizedMetric.hxx">
+      <Filter>AutLib\Geom\NormalizedMetric</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\NormalizedMetric\Geo_NormalizedMetricInfo.hxx">
+      <Filter>AutLib\Geom\NormalizedMetric</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\NormalizedMetric\Geo_NormalizedMetricI.hxx">
+      <Filter>AutLib\Geom\NormalizedMetric</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Info\Mesh_Info.hxx">
+      <Filter>AutLib\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntAnIsoInfo.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_AnIso_OptmPoint_IterCorrectInfo.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Edge\Mesh_BndEdgeGeomAdaptorI.hxx">
+      <Filter>AutLib\Mesh\Entities\Bnd\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurfaceLowerBoundedInfo.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\singular\common\SingSurf_CommonI.hxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\singular\common</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\Singularity\Curve\Pole\Singularity_PoleCurveI.hxx">
+      <Filter>AutLib\Geom\Singularity\Curve\Pole</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundaryTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh2d_SizeMapAnIsoFwd.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\PlaneEqualizer\Geo_PlaneEqualizer.hxx">
+      <Filter>AutLib\Geom\PlaneEqualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\PlaneEqualizer\Geo_PlaneEqualizerInfo.hxx">
+      <Filter>AutLib\Geom\PlaneEqualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\PlaneEqualizer\Geo_PlaneEqualizerI.hxx">
+      <Filter>AutLib\Geom\PlaneEqualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\PlaneNurbs\Geo_PlaneNurbs.hxx">
+      <Filter>AutLib\Geom\PlaneNurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Geom\PlaneNurbs\Geo_PlaneNurbsI.hxx">
+      <Filter>AutLib\Geom\PlaneNurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node\Aft_NodeIdentifierSurface.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Surface\Aft2d_NodeSurfaceFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Surface\Aft2d_NodeSurfaceTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface\Aft2d_EdgeSurfaceFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface\Aft2d_ElementSurfaceFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface\Aft2d_NodeSurface.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface\Aft2d_EdgeSurfaceTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface\Aft2d_EdgeSurface.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\edge\Aft2d_EdgeIdentifierSurface.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface\Aft2d_ElementSurfaceAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface\Aft2d_ElementSurfaceTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface\Aft2d_ElementSurface.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceGlobalData.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceGlobalDataFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceInfo.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceInfoAdaptor.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceInfoAdaptorFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceInfoFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Core\Surface\Aft2d_CoreSurface.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Core\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh2d_SizeMapSurface.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_Surface_OptmPoint_IterCorrectInfo.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_Surface_OptmPoint_IterCorrect.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std\SizeMap2d_Surface_OptmPointStd.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntSurfaceInfo.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntSurface.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntSurfaceI.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Surface\Mesh2d_Surface.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh2d_SizeMapSurfaceFwd.hxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_BndEdgeSurfaceFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_BndNodeSurfaceFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_BndNodeSurfaceTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_BndEdgeSurfaceTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_BndNodeSurface.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_BndEdgeSurface.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_gBndNodeTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_gCornerNode.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_gCornerNodeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_gSegmentNode.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_gSegmentNodeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_gBndEdgeTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_gSegmentEdge.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_gSegmentEdgeFwd.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_TBndNodeSurfaceTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_TBndEdgeSurfaceTraits.hxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Surface\Mesh2d_CurveSurface.hxx">
+      <Filter>AutLib\Mesh\Alg\Curve\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\System\Mesh_HierarchyTraits.hxx">
+      <Filter>AutLib\Mesh\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\Mesh_CurveInfo.cxx">
+      <Filter>AutLib\Mesh\Alg\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\Length\Function\Mesh_CurveLength_Function.cxx">
+      <Filter>AutLib\Mesh\Alg\Curve\Length\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\Length\Mesh_CurveLength.cxx">
+      <Filter>AutLib\Mesh\Alg\Curve\Length</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Aft_Node.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Aft_Edge.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Edge</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\LineIntegrand\Function\Mesh_LineIntegrand_Function.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\LineIntegrand\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurface.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurfaceLowerBounded.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface\Mesh_SurfaceSizeMap.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm\SizeMap2d_FullIntAnIso_NelderMeadObject.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntAnIso.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std\SizeMap2d_AnIso_OptmPointStd.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_AnIso_OptmPoint_IterCorrect.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\GeoMesh_Background.cxx">
+      <Filter>AutLib\Geom\Mesh\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\GeoMesh_BackgroundInfo.cxx">
+      <Filter>AutLib\Geom\Mesh\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Mesh\Data\GeoMesh_Data.cxx">
+      <Filter>AutLib\Geom\Mesh\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Entities\Edge\2d\Mesh2d_Edge.cxx">
+      <Filter>AutLib\Mesh\Entities\Edge\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Mesh\Data\2d\GeoMesh2d_Data.cxx">
+      <Filter>AutLib\Geom\Mesh\Data\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_Element.cxx">
+      <Filter>AutLib\Mesh\Entities\Element\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\Mesh_CurveOptmPoint_Correction.cxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Correction</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\Mesh_CurveOptmPoint_Newton_Function.cxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\Mesh_Curve.cxx">
+      <Filter>AutLib\Mesh\Alg\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Mesh_CurveOptmPoint_Newton.cxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Newton</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Approximation\SurfaceMetric\Approx\Geo_ApprxSurfMetric.cxx">
+      <Filter>AutLib\Geom\Approximation\SurfaceMetric\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Approximation\SurfaceMetric\Approx\Geo_ApprxSurfMetricInfo.cxx">
+      <Filter>AutLib\Geom\Approximation\SurfaceMetric\Approx</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\Iso\2d\GeoMesh2d_Background.cxx">
+      <Filter>AutLib\Geom\Mesh\BackGround\Iso\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\AnIso\2d\GeoMesh2d_MetricBackground.cxx">
+      <Filter>AutLib\Geom\Mesh\BackGround\AnIso\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Tools\Mesh_CadTools.cxx">
+      <Filter>AutLib\Cad\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\Mesh_CurveOptmPoint_CorrectionInfo.cxx">
+      <Filter>AutLib\Mesh\Alg\Curve\OptmPoint\Correction</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole\Mesh2d_PoleNodeTemplate.cxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line\Mesh2d_LineNodeTemplate.cxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole\Mesh2d_PoleEdgeTemplate.cxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line\Mesh2d_LineEdgeTemplate.cxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\PlaneCurve\Mesh_PlnCurve.cxx">
+      <Filter>AutLib\Cad\PlaneCurve</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\PlaneWire\Mesh_PlnWire.cxx">
+      <Filter>AutLib\Cad\PlaneWire</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\PlaneWire\GModel\Mesh2d_gPlnWireIO.cxx">
+      <Filter>AutLib\Cad\PlaneWire\GModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Plane\Mesh_SurfPlane.cxx">
+      <Filter>AutLib\Cad\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Pole\PartialSide\SingularityZone_Pole_PartialSide.cxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Pole\PartialSide</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Pole\Loop\SingularityZone_Pole_Loop.cxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Pole\Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Pole\Corner\SingularityZone_Pole_Corner.cxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Pole\Corner</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Pole\WholeSide\SingularityZone_Pole_WholeSide.cxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Pole\WholeSide</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Line\Corner\SingularityZone_Line_Corner.cxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line\Corner</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Line\Dangle\SingularityZone_Line_Dangle.cxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line\Dangle</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Line\Loop\SingularityZone_Line_Loop.cxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line\Loop</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Line\TwoSided\SingularityZone_Line_TwoSided.cxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line\TwoSided</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Line\WholeSide\SingularityZone_Line_WholeSide.cxx">
+      <Filter>AutLib\Geom\Singularity\Zone\Line\WholeSide</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Approximation\SurfaceMetric\Coloring\Geo_ColoringSurfMetric.cxx">
+      <Filter>AutLib\Geom\Approximation\SurfaceMetric\Coloring</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Approximation\SurfaceMetric\Coloring\Geo_ColoringSurfMetricIO.cxx">
+      <Filter>AutLib\Geom\Approximation\SurfaceMetric\Coloring</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\TypeDetection\Singularity_TypeDetectionInfo.cxx">
+      <Filter>AutLib\Geom\Singularity\TypeDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Horizon\Singularity_Horizon.cxx">
+      <Filter>AutLib\Geom\Singularity\Horizon</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Knit\Chain\Knit_Chain.cxx">
+      <Filter>AutLib\Geom\Knit\Chain</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\TypeDetection\Singularity_TypeDetection.cxx">
+      <Filter>AutLib\Geom\Singularity\TypeDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundaries.cxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_SegmentEdge.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\PlaneWire\2d\Mesh2d_PlnWireIO.cxx">
+      <Filter>AutLib\Cad\PlaneWire\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Plane\2d\Mesh2d_SurfPlane.cxx">
+      <Filter>AutLib\Cad\Plane\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Plane\2d\TopoMesh2d_PlaneBoundaries.cxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Plane\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Core\Aft_Core.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Core\2d\Aft2d_Core.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Core\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Core\2d\Aft2d_CoreAnIso.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Core\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Plane\Mesh_Plane.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundariesInfo.cxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\3d\SizeMap3d_Uniform.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\3d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\NormalizedMetric\Geo_NormalizedMetricInfo.cxx">
+      <Filter>AutLib\Geom\NormalizedMetric</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\NormalizedMetric\Geo_NormalizedMetric.cxx">
+      <Filter>AutLib\Geom\NormalizedMetric</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Info\Mesh_Info.cxx">
+      <Filter>AutLib\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_AnIso_OptmPoint_IterCorrectInfo.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntAnIsoInfo.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurfaceLowerBoundedInfo.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Surface\Imperfection\singular\common\SingSurf_Common.cxx">
+      <Filter>AutLib\Cad\Surface\Imperfection\singular\common</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Singularity\Curve\Pole\Singularity_PoleCurve.cxx">
+      <Filter>AutLib\Geom\Singularity\Curve\Pole</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\AnIso\2d\GeoMesh2d_MetricBackgroundIO.cxx">
+      <Filter>AutLib\Geom\Mesh\BackGround\AnIso\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\Iso\2d\GeoMesh2d_BackgroundIO.cxx">
+      <Filter>AutLib\Geom\Mesh\BackGround\Iso\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\PlaneEqualizer\Geo_PlaneEqualizer.cxx">
+      <Filter>AutLib\Geom\PlaneEqualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\PlaneEqualizer\Geo_PlaneEqualizerInfo.cxx">
+      <Filter>AutLib\Geom\PlaneEqualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Geom\PlaneNurbs\Geo_PlaneNurbs.cxx">
+      <Filter>AutLib\Geom\PlaneNurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_Surface_OptmPoint_IterCorrectInfo.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_Surface_OptmPoint_IterCorrect.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std\SizeMap2d_Surface_OptmPointStd.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntSurfaceInfo.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntSurface.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_gSegmentEdge.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Core\Surface\Aft2d_CoreSurface.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Core\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceInfo.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Data\Front\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Surface\TopoMesh2d_GModelBoundaries.cxx">
+      <Filter>AutLib\Mesh\Alg\Boundary\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Surface\Mesh2d_Surface.cxx">
+      <Filter>AutLib\Mesh\Alg\AdvFront\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface\SizeMap2d_Surface.cxx">
+      <Filter>AutLib\Mesh\MetricProcessor\SizeMap\Surface</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

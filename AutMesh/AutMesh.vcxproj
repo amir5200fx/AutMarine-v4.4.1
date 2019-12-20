@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{AB20AB01-8742-44FD-ACFA-4E0E559B85AE}</ProjectGuid>
+    <RootNamespace>AutMesh</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(OPENCASCADE_INCLUDEDIR);$(SolutionDir)Common\Armadillo;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCASCADE_INCLUDELIB);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(OPENCASCADE_INCLUDEDIR);$(SolutionDir)Common\Armadillo;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCASCADE_INCLUDELIB);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)AutMesh\AutLib\Cad\Analysis\Surface;$(SolutionDir)AutMesh\AutLib\Cad\Analysis\Boundary;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\singularity;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect\wire\intersect;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect\wire\outer;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect\wire\open;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect\wire\order;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect\wire;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\singular\general;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\singular\common;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\singular;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection;$(SolutionDir)AutMesh\AutLib\Cad\Surface;$(SolutionDir)AutMesh\AutLib\Cad\PlaneCurve\GModel;$(SolutionDir)AutMesh\AutLib\Cad\PlaneCurve\2d;$(SolutionDir)AutMesh\AutLib\Cad\PlaneCurve;$(SolutionDir)AutMesh\AutLib\Cad\PlaneWire\GModel;$(SolutionDir)AutMesh\AutLib\Cad\PlaneWire\2d;$(SolutionDir)AutMesh\AutLib\Cad\PlaneWire;$(SolutionDir)AutMesh\AutLib\Cad\Plane\GModel;$(SolutionDir)AutMesh\AutLib\Cad\Plane\2d;$(SolutionDir)AutMesh\AutLib\Cad\Plane;$(SolutionDir)AutMesh\AutLib\Cad\Tools;$(SolutionDir)AutMesh\AutLib\Geom\PlaneNurbs;$(SolutionDir)AutMesh\AutLib\Geom\PlaneEqualizer;$(SolutionDir)AutMesh\AutLib\Geom\NormalizedMetric;$(SolutionDir)AutMesh\AutLib\Geom\Knit\Chain\edge;$(SolutionDir)AutMesh\AutLib\Geom\Knit\Chain\node\2d;$(SolutionDir)AutMesh\AutLib\Geom\Knit\Chain\node;$(SolutionDir)AutMesh\AutLib\Geom\Knit\Chain;$(SolutionDir)AutMesh\AutLib\Geom\Approximation\SurfaceMetric\Coloring;$(SolutionDir)AutMesh\AutLib\Geom\Approximation\SurfaceMetric\Approx;$(SolutionDir)AutMesh\AutLib\Geom\Approximation\Space;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\RetrieveBSplinesBoundaries;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\WholeSide;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\TwoSided;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\Loop;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\Dangle;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\Curve;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\Corner;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole\WholeSide;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole\PartialSide;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole\Loop;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole\Curve;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole\Corner;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\TypeDetection;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Type;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Horizon;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Curve\Line;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Curve\Pole;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Curve;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\Data\2d;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\Data;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\BackGround\AnIso\3d;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\BackGround\AnIso\2d;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\BackGround\Iso\3d;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\BackGround\Iso\2d;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\BackGround;$(SolutionDir)AutMesh\AutLib\Mesh\Data;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Plane\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Plane;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Data\Front\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Data\Front\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Data\Front;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Data\Cavity;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Core\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Core\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Core;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Length\Function;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Length;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Entity\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Entity\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Entity;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Subdivision;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Newton;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Correction\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Correction;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Plane\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Plane;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\edge;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\entity;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Element\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Element\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Element;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Edge;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Node\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Node\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Node\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Node;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Facet\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\AnIso\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\AnIso2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\LineIntegrand\Function;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\LineIntegrand;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap\Surface\Approx;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap\3d;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap\2d;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\NelderMead;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\LineIntg;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\3d;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\2d;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\Standard;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\FullIntegration;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\Approximation;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Facet\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Facet;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Edge\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Edge\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Edge;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Node\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Node\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Node;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Element\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Element\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Element;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Facet\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Facet;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Edge\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Edge\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Edge;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Node\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Node\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Node;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Entity;$(SolutionDir)AutMesh\AutLib\Mesh\System;$(SolutionDir)AutMesh\AutLib\Info;$(SolutionDir)AutBase\include;$(SolutionDir)AutCad\include;$(SolutionDir)AutNumeric\include;$(SolutionDir)AutGeom\include;$(SolutionDir)AutIO\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)AutMesh\AutLib\Cad\Analysis\Surface;$(SolutionDir)AutMesh\AutLib\Cad\Analysis\Boundary;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\singularity;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect\wire\intersect;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect\wire\outer;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect\wire\open;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect\wire\order;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect\wire;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\defect;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\singular\general;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\singular\common;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection\singular;$(SolutionDir)AutMesh\AutLib\Cad\Surface\Imperfection;$(SolutionDir)AutMesh\AutLib\Cad\Surface;$(SolutionDir)AutMesh\AutLib\Cad\PlaneCurve\GModel;$(SolutionDir)AutMesh\AutLib\Cad\PlaneCurve\2d;$(SolutionDir)AutMesh\AutLib\Cad\PlaneCurve;$(SolutionDir)AutMesh\AutLib\Cad\PlaneWire\GModel;$(SolutionDir)AutMesh\AutLib\Cad\PlaneWire\2d;$(SolutionDir)AutMesh\AutLib\Cad\PlaneWire;$(SolutionDir)AutMesh\AutLib\Cad\Plane\GModel;$(SolutionDir)AutMesh\AutLib\Cad\Plane\2d;$(SolutionDir)AutMesh\AutLib\Cad\Plane;$(SolutionDir)AutMesh\AutLib\Cad\Tools;$(SolutionDir)AutMesh\AutLib\Geom\PlaneNurbs;$(SolutionDir)AutMesh\AutLib\Geom\PlaneEqualizer;$(SolutionDir)AutMesh\AutLib\Geom\NormalizedMetric;$(SolutionDir)AutMesh\AutLib\Geom\Knit\Chain\edge;$(SolutionDir)AutMesh\AutLib\Geom\Knit\Chain\node\2d;$(SolutionDir)AutMesh\AutLib\Geom\Knit\Chain\node;$(SolutionDir)AutMesh\AutLib\Geom\Knit\Chain;$(SolutionDir)AutMesh\AutLib\Geom\Approximation\SurfaceMetric\Coloring;$(SolutionDir)AutMesh\AutLib\Geom\Approximation\SurfaceMetric\Approx;$(SolutionDir)AutMesh\AutLib\Geom\Approximation\Space;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\RetrieveBSplinesBoundaries;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\WholeSide;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\TwoSided;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\Loop;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\Dangle;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\Curve;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line\Corner;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Line;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole\WholeSide;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole\PartialSide;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole\Loop;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole\Curve;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole\Corner;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone\Pole;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Zone;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\TypeDetection;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Type;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Horizon;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Curve\Line;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Curve\Pole;$(SolutionDir)AutMesh\AutLib\Geom\Singularity\Curve;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\Data\2d;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\Data;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\BackGround\AnIso\3d;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\BackGround\AnIso\2d;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\BackGround\Iso\3d;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\BackGround\Iso\2d;$(SolutionDir)AutMesh\AutLib\Geom\Mesh\BackGround;$(SolutionDir)AutMesh\AutLib\Mesh\Data;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Plane\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Plane;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Boundary\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Data\Front\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Data\Front\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Data\Front;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Data\Cavity;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Core\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Core\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Core;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Length\Function;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Length;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Entity\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Entity\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Entity;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Subdivision;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Newton;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Correction\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\OptmPoint\Correction;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\Curve;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Plane\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Plane;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\edge;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\entity;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Element\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Element\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Element;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Edge;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Node\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Node\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Node\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Node;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Facet\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\AnIso\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\AnIso2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\LineIntegrand\Function;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\LineIntegrand;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap\Surface\Approx;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap\3d;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap\2d;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\MetricMap;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\NelderMead;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\LineIntg;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\3d;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\2d;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\Standard;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\FullIntegration;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\Approximation;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Iso;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap\Surface;$(SolutionDir)AutMesh\AutLib\Mesh\MetricProcessor\SizeMap;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Facet\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Facet;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Edge\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Edge\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Edge;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Node\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Node\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Bnd\Node;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Element\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Element\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Element;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Facet\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Facet;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Edge\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Edge\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Edge;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Node\3d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Node\2d;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Node;$(SolutionDir)AutMesh\AutLib\Mesh\Entities\Entity;$(SolutionDir)AutMesh\AutLib\Mesh\System;$(SolutionDir)AutMesh\AutLib\Info;$(SolutionDir)AutBase\include;$(SolutionDir)AutCad\include;$(SolutionDir)AutNumeric\include;$(SolutionDir)AutGeom\include;$(SolutionDir)AutIO\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AutLib\Cad\PlaneCurve\2d\Mesh2d_PlnCurve.hxx" />
+    <ClInclude Include="AutLib\Cad\PlaneCurve\2d\Mesh2d_PlnCurveFwd.hxx" />
+    <ClInclude Include="AutLib\Cad\PlaneCurve\GModel\Mesh2d_gPlnCurve.hxx" />
+    <ClInclude Include="AutLib\Cad\PlaneCurve\Mesh_PlnCurve.hxx" />
+    <ClInclude Include="AutLib\Cad\PlaneCurve\Mesh_PlnCurveI.hxx" />
+    <ClInclude Include="AutLib\Cad\PlaneWire\2d\Mesh2d_PlnWire.hxx" />
+    <ClInclude Include="AutLib\Cad\PlaneWire\2d\Mesh2d_PlnWireFwd.hxx" />
+    <ClInclude Include="AutLib\Cad\PlaneWire\GModel\Mesh2d_gPlnWire.hxx" />
+    <ClInclude Include="AutLib\Cad\PlaneWire\Mesh_PlnWire.hxx" />
+    <ClInclude Include="AutLib\Cad\PlaneWire\Mesh_PlnWireI.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\2d\Mesh2d_SurfPlane.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\GModel\Mesh2d_gSurfPlane.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\GModel\Mesh2d_gSurfPlaneFwd.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Mesh_SurfPlane.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Mesh_SurfPlaneI.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\ImpSurf_defect.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\ImpSurf_defectWire.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\intersect\ImpSurf_defWire_Intersect.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\intersect\ImpSurf_defWire_IntersectI.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\open\ImpSurf_defWire_Open.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\open\ImpSurf_defWire_OpenI.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\order\ImpSurf_defWire_Order.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\defect\wire\order\ImpSurf_defWire_OrderI.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\Mesh_ImpSurface.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\singular\common\SingSurf_Common.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\singular\common\SingSurf_CommonI.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\singular\general\SingSurf_General.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Imperfection\singular\ImpSurf_singular.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Mesh_SurfaceTemplate.hxx" />
+    <ClInclude Include="AutLib\Cad\Surface\Mesh_SurfaceTemplateI.hxx" />
+    <ClInclude Include="AutLib\Cad\Tools\Mesh_CadTools.hxx" />
+    <ClInclude Include="AutLib\Cad\Tools\Mesh_CadToolsI.hxx" />
+    <ClInclude Include="AutLib\Geom\Approximation\Space\Geo_ApprxSpace.hxx" />
+    <ClInclude Include="AutLib\Geom\Approximation\SurfaceMetric\Approx\Geo_ApprxSurfMetric.hxx" />
+    <ClInclude Include="AutLib\Geom\Approximation\SurfaceMetric\Approx\Geo_ApprxSurfMetricInfo.hxx" />
+    <ClInclude Include="AutLib\Geom\Approximation\SurfaceMetric\Coloring\Geo_ColoringSurfMetric.hxx" />
+    <ClInclude Include="AutLib\Geom\Knit\Chain\edge\Knit_ChainEdge.hxx" />
+    <ClInclude Include="AutLib\Geom\Knit\Chain\edge\Knit_ChainEdgeAdaptor.hxx" />
+    <ClInclude Include="AutLib\Geom\Knit\Chain\Knit_Chain.hxx" />
+    <ClInclude Include="AutLib\Geom\Knit\Chain\Knit_ChainI.hxx" />
+    <ClInclude Include="AutLib\Geom\Knit\Chain\Knit_ChainRegister.hxx" />
+    <ClInclude Include="AutLib\Geom\Knit\Chain\node\2d\Knit2d_ChainDirectedNode.hxx" />
+    <ClInclude Include="AutLib\Geom\Knit\Chain\node\2d\Knit2d_ChainNode.hxx" />
+    <ClInclude Include="AutLib\Geom\Knit\Chain\node\Knit_ChainNode.hxx" />
+    <ClInclude Include="AutLib\Geom\Knit\Chain\node\Knit_ChainNodeAdaptor.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\AnIso\2d\GeoMesh2d_MetricBackground.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\AnIso\2d\GeoMesh2d_MetricBackgroundFwd.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\GeoMesh_Background.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\GeoMesh_BackgroundI.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\GeoMesh_BackgroundInfo.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\Iso\2d\GeoMesh2d_Background.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\BackGround\Iso\2d\GeoMesh2d_BackgroundFwd.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\Data\2d\GeoMesh2d_Data.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\Data\2d\GeoMesh2d_DataFwd.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\Data\GeoMesh_Data.hxx" />
+    <ClInclude Include="AutLib\Geom\Mesh\Data\GeoMesh_DataI.hxx" />
+    <ClInclude Include="AutLib\Geom\NormalizedMetric\Geo_NormalizedMetric.hxx" />
+    <ClInclude Include="AutLib\Geom\NormalizedMetric\Geo_NormalizedMetricI.hxx" />
+    <ClInclude Include="AutLib\Geom\NormalizedMetric\Geo_NormalizedMetricInfo.hxx" />
+    <ClInclude Include="AutLib\Geom\PlaneEqualizer\Geo_PlaneEqualizer.hxx" />
+    <ClInclude Include="AutLib\Geom\PlaneEqualizer\Geo_PlaneEqualizerI.hxx" />
+    <ClInclude Include="AutLib\Geom\PlaneEqualizer\Geo_PlaneEqualizerInfo.hxx" />
+    <ClInclude Include="AutLib\Geom\PlaneNurbs\Geo_PlaneNurbs.hxx" />
+    <ClInclude Include="AutLib\Geom\PlaneNurbs\Geo_PlaneNurbsI.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Curve\Line\Singularity_LineCurve.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Curve\Mesh_SingularityCurve.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Curve\Pole\Singularity_PoleCurve.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Curve\Pole\Singularity_PoleCurveI.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Horizon\Singularity_Horizon.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\RetrieveBSplinesBoundaries\Singularity_RetrieveBSplinesBoundaries.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\TypeDetection\Singularity_TypeDetection.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\TypeDetection\Singularity_TypeDetectionI.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\TypeDetection\Singularity_TypeDetectionInfo.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Type\Mesh_SingularityType.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\Corner\SingularityZone_Line_Corner.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\Dangle\SingularityZone_Line_Dangle.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\Loop\SingularityZone_Line_Loop.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\SingularityZone_Line.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\TwoSided\SingularityZone_Line_TwoSided.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Line\WholeSide\SingularityZone_Line_WholeSide.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Mesh_SingularityZone.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Pole\Corner\SingularityZone_Pole_Corner.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Pole\Loop\SingularityZone_Pole_Loop.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Pole\PartialSide\SingularityZone_Pole_PartialSide.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Pole\SingularityZone_Pole.hxx" />
+    <ClInclude Include="AutLib\Geom\Singularity\Zone\Pole\WholeSide\SingularityZone_Pole_WholeSide.hxx" />
+    <ClInclude Include="AutLib\Info\Mesh_Info.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Core\2d\Aft2d_Core.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Core\2d\Aft2d_CoreAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Core\Aft_Core.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Core\Aft_CoreI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Core\Surface\Aft2d_CoreSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Cavity\Aft_CavityData.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoGlobalData.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoGlobalDataFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoInfoAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoInfoAdaptorFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontAnIsoInfoFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontGlobalData.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontGlobalDataFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoAdaptorFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoAdaptorTemplate.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoTemplate.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontInfoTemplateI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\2d\Aft2d_FrontTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Aft_FrontGlobalData.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Aft_FrontInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceGlobalData.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceGlobalDataFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceInfoAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceInfoAdaptorFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceInfoFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdgeAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdgeAnIsoFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdgeAnIsoTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdgeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_BndEdgeTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_SegmentEdge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_SegmentEdgeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_TBndEdgeAnIsoTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_TBndEdgeTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Aft_BndEdge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Aft_BndEdgeAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Aft_BndEdgeI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Aft_TBndEdge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Aft_TBndEdgeI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_BndEdgeSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_BndEdgeSurfaceFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_BndEdgeSurfaceTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_gBndEdgeTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_gSegmentEdge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_gSegmentEdgeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_TBndEdgeSurfaceTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Facet\Aft_BndFacet.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNode.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNodeAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNodeAnIsoFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNodeAnIsoTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNodeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_BndNodeTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_SegmentNode.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_SegmentNodeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_TBndNodeAnIsoTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\2d\Aft2d_TBndNodeTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Aft_BndNode.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Aft_BndNodeAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Aft_TBndNode.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Aft_TBndNodeI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_BndNodeSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_BndNodeSurfaceTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_BndNodeSurfaceFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_gBndNodeTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_gCornerNode.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_gCornerNodeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_gSegmentNode.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_gSegmentNodeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Node\Surface\Aft2d_TBndNodeSurfaceTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_Edge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_EdgeAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_EdgeAnIsoFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_EdgeAnIsoTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_EdgeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\2d\Aft2d_EdgeTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d\Aft3d_Edge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d\Aft3d_EdgeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\3d\Aft3d_EdgeTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Aft_Edge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Aft_EdgeI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface\Aft2d_EdgeSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface\Aft2d_EdgeSurfaceFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Surface\Aft2d_EdgeSurfaceTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_Element.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementAnIsoAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementAnIsoFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementAnIsoTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\2d\Aft2d_ElementTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\3d\Aft3d_Element.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\3d\Aft3d_ElementAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\3d\Aft3d_ElementFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\3d\Aft3d_ElementTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Aft_Element.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Aft_ElementDim.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface\Aft2d_ElementSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface\Aft2d_ElementSurfaceAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface\Aft2d_ElementSurfaceFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface\Aft2d_ElementSurfaceTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Element\Surface\Aft2d_NodeSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d\Aft3d_Facet.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d\Aft3d_FacetAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d\Aft3d_FacetFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Facet\3d\Aft3d_FacetTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\edge\Aft2d_EdgeIdentifierAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\edge\Aft2d_EdgeIdentifierSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\entity\Aft_EntityIdentifier.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node\Aft_NodeIdentifier.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node\Aft_NodeIdentifierAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Front\Identifiers\node\Aft_NodeIdentifierSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_Node.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_NodeAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_NodeAnIsoFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_NodeAnIsoTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_NodeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\2d\Aft2d_NodeTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\3d\Aft3d_Node.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\3d\Aft3d_NodeAnIsoFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\3d\Aft3d_NodeFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\3d\Aft3d_NodeTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Aft_BndNodeI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Aft_Node.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Aft_NodeAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Aft_NodeI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Surface\Aft2d_NodeSurfaceFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Surface\Aft2d_NodeSurfaceTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Plane\2d\Mesh2d_Plane.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Plane\2d\Mesh2d_PlaneAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Plane\Mesh_Plane.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Plane\Mesh_PlaneI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\AdvFront\Surface\Mesh2d_Surface.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Plane\2d\TopoMesh2d_PlaneBoundaries.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundaries.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundariesI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundariesInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundaryTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line\Mesh2d_LineEdgeTemplate.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line\Mesh2d_LineEdgeTemplateI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Mesh2d_SingEdgeTemplate.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole\Mesh2d_PoleEdgeTemplate.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole\Mesh2d_PoleEdgeTemplateI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line\Mesh2d_LineNodeTemplate.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line\Mesh2d_LineNodeTemplateI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Mesh2d_SingNodeTemplate.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole\Mesh2d_PoleNodeTemplate.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole\Mesh2d_PoleNodeTemplateI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Boundary\Surface\TopoMesh2d_GModelBoundaries.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\2d\Mesh2d_Curve.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\2d\Mesh2d_CurveAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Entity\2d\Mesh2d_CurveEntity.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Entity\Mesh_CurveEntity.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Length\Function\Mesh_CurveLength_Function.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Length\Function\Mesh_CurveLength_FunctionI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Length\Mesh_CurveLength.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Length\Mesh_CurveLengthI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Mesh_Curve.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Mesh_CurveI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Mesh_CurveInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\2d\Mesh2d_CurveOptmPoint_Correction.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\Mesh_CurveOptmPoint_Correction.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\Mesh_CurveOptmPoint_CorrectionI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\Mesh_CurveOptmPoint_CorrectionInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation\2d\Mesh2d_CurveOptmPoint_Newton_Derivation.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Derivation\Mesh_CurveOptmPoint_Newton_Derivation.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\2d\Mesh2d_CurveOptmPoint_Newton_Function.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\Mesh_CurveOptmPoint_Newton_Function.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\Mesh_CurveOptmPoint_Newton_FunctionI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Mesh_CurveOptmPoint_Newton.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Mesh_CurveOptmPoint_NewtonI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Alg\Curve\Surface\Mesh2d_CurveSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\Data\Mesh_Counters.hxx" />
+    <ClInclude Include="AutLib\Mesh\Data\Mesh_GlobalData.hxx" />
+    <ClInclude Include="AutLib\Mesh\Data\Mesh_QualityMap.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Edge\Mesh_BndEdge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Edge\Mesh_BndEdgeGeomAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Edge\Mesh_BndEdgeGeomAdaptorI.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Edge\Mesh_BndEdge_Position.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Facet\Mesh_BndFacet.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Node\Mesh_BndNode.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Node\Mesh_BndNodeGeomAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Bnd\Node\Mesh_BndNode_Position.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Edge\2d\Mesh2d_Edge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Edge\3d\Mesh3d_Edge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Edge\Mesh_Edge.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Edge\Mesh_EdgeAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_Element.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_ElementAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_ElementAdaptorTemplate.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_ElementFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_ElementTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\3d\Mesh3d_Element.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\3d\Mesh3d_ElementAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\3d\Mesh3d_ElementAdaptorFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\3d\Mesh3d_ElementAdaptorTemplate.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\Mesh_Element.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Element\Mesh_ElementAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Entity\Mesh_Entity.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Entity\Mesh_EntityAdaptorM.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Entity\Mesh_NamedEntity.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Facet\3d\Mesh3d_Facet.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Facet\3d\Mesh3d_FacetAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Facet\3d\Mesh3d_FacetTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Facet\Mesh_Facet.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Node\2d\Mesh2d_Node.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Node\3d\Mesh3d_Node.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Node\Mesh_Node.hxx" />
+    <ClInclude Include="AutLib\Mesh\Entities\Node\Mesh_NodeAdaptor.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\LineIntegrand\Function\Mesh_LineIntegrand_Function.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\LineIntegrand\Function\Mesh_LineIntegrand_FunctionI.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\LineIntegrand\Mesh_LineIntegrand.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\2d\Mesh2d_MetricMap.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Mesh_MetricMap.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Mesh_MetricMapTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurfaceLowerBounded.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurfaceLowerBoundedInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\MetricMap2d_Surface.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_AnIso_OptmPoint_IterCorrect.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_AnIso_OptmPoint_IterCorrectInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_Surface_OptmPoint_IterCorrect.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_Surface_OptmPoint_IterCorrectInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std\SizeMap2d_AnIso_OptmPointStd.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std\SizeMap2d_Surface_OptmPointStd.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm\SizeMap2d_FullIntAnIso_NelderMeadObject.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm\SizeMap2d_FullIntAnIso_NelderMeadObjectI.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntAnIsoI.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntAnIsoInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntSurfaceI.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntSurfaceInfo.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Adaptive\Standard\SizeMap2d_StandardAdapt.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\2d\SizeMap2d_Uniform.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\3d\SizeMap3d_Uniform.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh2d_SizeMap.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh2d_SizeMapAnIso.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh2d_SizeMapAnIsoFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh2d_SizeMapSurface.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh2d_SizeMapSurfaceFwd.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh3d_SizeMap.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh_SizeMap.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Mesh_SizeMapTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface\Mesh_SurfaceSizeMap.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface\Mesh_SurfaceSizeMapI.hxx" />
+    <ClInclude Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface\SizeMap2d_Surface.hxx" />
+    <ClInclude Include="AutLib\Mesh\System\Mesh_EntityCounterM.hxx" />
+    <ClInclude Include="AutLib\Mesh\System\Mesh_HierarchyTraits.hxx" />
+    <ClInclude Include="AutLib\Mesh\System\Mesh_RegisterEntityM.hxx" />
+    <ClInclude Include="AutLib\Mesh\System\Mesh_RegisterEntityM_Avl.hxx" />
+    <ClInclude Include="AutLib\Mesh\System\Mesh_SizeMapMacros.hxx" />
+    <ClInclude Include="AutLib\Mesh\System\Mesh_TypeTraits.hxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutLib\Cad\PlaneCurve\Mesh_PlnCurve.cxx" />
+    <ClCompile Include="AutLib\Cad\PlaneWire\2d\Mesh2d_PlnWireIO.cxx" />
+    <ClCompile Include="AutLib\Cad\PlaneWire\GModel\Mesh2d_gPlnWireIO.cxx" />
+    <ClCompile Include="AutLib\Cad\PlaneWire\Mesh_PlnWire.cxx" />
+    <ClCompile Include="AutLib\Cad\Plane\2d\Mesh2d_SurfPlane.cxx" />
+    <ClCompile Include="AutLib\Cad\Plane\Mesh_SurfPlane.cxx" />
+    <ClCompile Include="AutLib\Cad\Surface\Imperfection\singular\common\SingSurf_Common.cxx" />
+    <ClCompile Include="AutLib\Cad\Tools\Mesh_CadTools.cxx" />
+    <ClCompile Include="AutLib\Geom\Approximation\SurfaceMetric\Approx\Geo_ApprxSurfMetric.cxx" />
+    <ClCompile Include="AutLib\Geom\Approximation\SurfaceMetric\Approx\Geo_ApprxSurfMetricInfo.cxx" />
+    <ClCompile Include="AutLib\Geom\Approximation\SurfaceMetric\Coloring\Geo_ColoringSurfMetric.cxx" />
+    <ClCompile Include="AutLib\Geom\Approximation\SurfaceMetric\Coloring\Geo_ColoringSurfMetricIO.cxx" />
+    <ClCompile Include="AutLib\Geom\Knit\Chain\Knit_Chain.cxx" />
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\AnIso\2d\GeoMesh2d_MetricBackground.cxx" />
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\AnIso\2d\GeoMesh2d_MetricBackgroundIO.cxx" />
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\GeoMesh_Background.cxx" />
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\GeoMesh_BackgroundInfo.cxx" />
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\Iso\2d\GeoMesh2d_Background.cxx" />
+    <ClCompile Include="AutLib\Geom\Mesh\BackGround\Iso\2d\GeoMesh2d_BackgroundIO.cxx" />
+    <ClCompile Include="AutLib\Geom\Mesh\Data\2d\GeoMesh2d_Data.cxx" />
+    <ClCompile Include="AutLib\Geom\Mesh\Data\GeoMesh_Data.cxx" />
+    <ClCompile Include="AutLib\Geom\NormalizedMetric\Geo_NormalizedMetric.cxx" />
+    <ClCompile Include="AutLib\Geom\NormalizedMetric\Geo_NormalizedMetricInfo.cxx" />
+    <ClCompile Include="AutLib\Geom\PlaneEqualizer\Geo_PlaneEqualizer.cxx" />
+    <ClCompile Include="AutLib\Geom\PlaneEqualizer\Geo_PlaneEqualizerInfo.cxx" />
+    <ClCompile Include="AutLib\Geom\PlaneNurbs\Geo_PlaneNurbs.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Curve\Pole\Singularity_PoleCurve.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Horizon\Singularity_Horizon.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\TypeDetection\Singularity_TypeDetection.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\TypeDetection\Singularity_TypeDetectionInfo.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Line\Corner\SingularityZone_Line_Corner.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Line\Dangle\SingularityZone_Line_Dangle.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Line\Loop\SingularityZone_Line_Loop.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Line\TwoSided\SingularityZone_Line_TwoSided.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Line\WholeSide\SingularityZone_Line_WholeSide.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Pole\Corner\SingularityZone_Pole_Corner.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Pole\Loop\SingularityZone_Pole_Loop.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Pole\PartialSide\SingularityZone_Pole_PartialSide.cxx" />
+    <ClCompile Include="AutLib\Geom\Singularity\Zone\Pole\WholeSide\SingularityZone_Pole_WholeSide.cxx" />
+    <ClCompile Include="AutLib\Info\Mesh_Info.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Core\2d\Aft2d_Core.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Core\2d\Aft2d_CoreAnIso.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Core\Aft_Core.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Core\Surface\Aft2d_CoreSurface.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Data\Front\Surface\Aft2d_FrontSurfaceInfo.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\2d\Aft2d_SegmentEdge.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Entities\Bnd\Edge\Surface\Aft2d_gSegmentEdge.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Entities\Edge\Aft_Edge.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Entities\Node\Aft_Node.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Plane\Mesh_Plane.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\AdvFront\Surface\Mesh2d_Surface.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Plane\2d\TopoMesh2d_PlaneBoundaries.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundaries.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Plane\TopoMesh_PlaneBoundariesInfo.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Line\Mesh2d_LineEdgeTemplate.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Edge\Pole\Mesh2d_PoleEdgeTemplate.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Line\Mesh2d_LineNodeTemplate.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Surface\Singularity\Node\Pole\Mesh2d_PoleNodeTemplate.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Boundary\Surface\TopoMesh2d_GModelBoundaries.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\Length\Function\Mesh_CurveLength_Function.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\Length\Mesh_CurveLength.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\Mesh_Curve.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\Mesh_CurveInfo.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\Mesh_CurveOptmPoint_Correction.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\OptmPoint\Correction\Mesh_CurveOptmPoint_CorrectionInfo.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Function\Mesh_CurveOptmPoint_Newton_Function.cxx" />
+    <ClCompile Include="AutLib\Mesh\Alg\Curve\OptmPoint\Newton\Mesh_CurveOptmPoint_Newton.cxx" />
+    <ClCompile Include="AutLib\Mesh\Entities\Edge\2d\Mesh2d_Edge.cxx" />
+    <ClCompile Include="AutLib\Mesh\Entities\Element\2d\Mesh2d_Element.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\LineIntegrand\Function\Mesh_LineIntegrand_Function.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurface.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurfaceLowerBounded.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\MetricMap\Surface\Exact\MetricMap2d_ExactSurfaceLowerBoundedInfo.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_AnIso_OptmPoint_IterCorrect.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_AnIso_OptmPoint_IterCorrectInfo.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_Surface_OptmPoint_IterCorrect.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Iter\SizeMap2d_Surface_OptmPoint_IterCorrectInfo.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std\SizeMap2d_AnIso_OptmPointStd.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\OptmPoint\Std\SizeMap2d_Surface_OptmPointStd.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\Optm\SizeMap2d_FullIntAnIso_NelderMeadObject.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntAnIso.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntAnIsoInfo.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntSurface.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\AnIso\FullIntegration\2d\SizeMap2d_FullIntSurfaceInfo.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\Iso\Uniform\3d\SizeMap3d_Uniform.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface\Mesh_SurfaceSizeMap.cxx" />
+    <ClCompile Include="AutLib\Mesh\MetricProcessor\SizeMap\Surface\SizeMap2d_Surface.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutCad\AutCad.vcxproj">
+      <Project>{d459f493-f7db-4ad6-811a-a3ebfa61205f}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AutLib">
+      <UniqueIdentifier>{01b5e680-e8b7-4af8-8e7c-74fa9e1c0cbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\IO">
+      <UniqueIdentifier>{1f007dff-6564-4510-86d7-cb882074228d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\IO\Global">
+      <UniqueIdentifier>{26bafac3-0660-4b07-a731-ebd2bb39fa71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\IO\IGES">
+      <UniqueIdentifier>{6b702fdf-2e0d-47c2-b0a7-3616bdca3dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\IO\STEP">
+      <UniqueIdentifier>{81b59033-f5c4-4eb2-acf1-8fc0defed9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\IO\TecPlot">
+      <UniqueIdentifier>{b77b70aa-ecd3-4f05-b473-e3f5589176f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutLib\IO\Global\IO_Config.hxx">
+      <Filter>AutLib\IO\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\IO\Global\IO_Info.hxx">
+      <Filter>AutLib\IO\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\IO\Global\IO_Shape.hxx">
+      <Filter>AutLib\IO\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\IO\IGES\IO_IGES.hxx">
+      <Filter>AutLib\IO\IGES</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\IO\STEP\IO_STEP.hxx">
+      <Filter>AutLib\IO\STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\IO\TecPlot\TecPlot.hxx">
+      <Filter>AutLib\IO\TecPlot</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\IO\TecPlot\TecPlot_Opencascade.hxx">
+      <Filter>AutLib\IO\TecPlot</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\IO\TecPlot\TecPlotI.hxx">
+      <Filter>AutLib\IO\TecPlot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutLib\IO\Global\IO_ShapeIO.cxx">
+      <Filter>AutLib\IO\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\IO\IGES\IO_IGES.cxx">
+      <Filter>AutLib\IO\IGES</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\IO\STEP\IO_STEP.cxx">
+      <Filter>AutLib\IO\STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\IO\TecPlot\TecPlot.cxx">
+      <Filter>AutLib\IO\TecPlot</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\IO\TecPlot\TecPlot_Opencascade.cxx">
+      <Filter>AutLib\IO\TecPlot</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

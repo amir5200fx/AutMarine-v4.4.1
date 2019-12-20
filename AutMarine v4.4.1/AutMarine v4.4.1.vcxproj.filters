@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AutLib">
+      <UniqueIdentifier>{63647712-4cb6-48e6-b6d3-4b803a9b60ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Examples">
+      <UniqueIdentifier>{1f3aaffa-3342-40b7-8a40-063469dbc981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Examples\Mesh">
+      <UniqueIdentifier>{32947924-72e8-4a3b-aca8-c374ef7aa03d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Examples\Mesh\Example_GModel_Analysis_Case1.cxx">
+      <Filter>AutLib\Examples\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Examples\Mesh\Example_GModel_BoundaryMesh_Case1.cxx">
+      <Filter>AutLib\Examples\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Examples\Mesh\Example_GModel_Mesh_Case1.cxx">
+      <Filter>AutLib\Examples\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutLib\Examples\Mesh\Examples_Mesh.hxx">
+      <Filter>AutLib\Examples\Mesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

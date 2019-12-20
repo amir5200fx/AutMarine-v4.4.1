@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AutLib">
+      <UniqueIdentifier>{a910d5ba-7b9a-489c-98a9-bbd6338f1692}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh">
+      <UniqueIdentifier>{59ff6d65-d3da-499c-99d9-86c4aecb8c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Analysis">
+      <UniqueIdentifier>{5017771f-b5c5-43b2-bc92-4b5b33813874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Analysis\Boundary">
+      <UniqueIdentifier>{dcb23061-6350-4712-b756-4bd4732e1ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Analysis\Boundary\GModel">
+      <UniqueIdentifier>{9b566ece-9c6a-49b3-8436-a7013fb303f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Analysis\Model">
+      <UniqueIdentifier>{ca2d2e79-3c89-4fef-a2d7-8e555f916afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Analysis\Model\GModel">
+      <UniqueIdentifier>{88fd5df5-8ac9-4d90-81e9-8d18369f2e5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Surface">
+      <UniqueIdentifier>{aaa237be-79e9-4b2b-93d5-ae1a0d4b4c2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Traits">
+      <UniqueIdentifier>{431f9902-510b-416d-a9c1-6f53b4dc6e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Model">
+      <UniqueIdentifier>{bfce3132-3cb5-46e2-ac5e-a26d249d3706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Surface\GModel">
+      <UniqueIdentifier>{6ffa3da7-c7f5-40f5-abb3-a9b2356feb54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Curve">
+      <UniqueIdentifier>{796efbd3-87ec-4a89-827e-77881b678037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Info">
+      <UniqueIdentifier>{af17a405-b866-4f3f-8bb3-2c1a15e0c160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Curve\GModel">
+      <UniqueIdentifier>{64cf900b-51a0-47eb-8f5c-1b9721f7049b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Mesh\Model\GModel">
+      <UniqueIdentifier>{e04ac46a-d046-4638-b45c-ab4998e72fd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutLib\Mesh\Analysis\Boundary\MeshAPI_BndCurvesAnalysisI.hxx">
+      <Filter>AutLib\Mesh\Analysis\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Analysis\Boundary\MeshAPI_BndCurvesAnalysis.hxx">
+      <Filter>AutLib\Mesh\Analysis\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Analysis\Boundary\GModel\MeshAPI_gBndCurvesAnalysis.hxx">
+      <Filter>AutLib\Mesh\Analysis\Boundary\GModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Analysis\Model\MeshAPI_ModelAnalysis.hxx">
+      <Filter>AutLib\Mesh\Analysis\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Analysis\Model\MeshAPI_ModelAnalysisI.hxx">
+      <Filter>AutLib\Mesh\Analysis\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Analysis\Model\GModel\MeshAPI_gModelAnalysis.hxx">
+      <Filter>AutLib\Mesh\Analysis\Model\GModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Surface\MeshAPI_Surface.hxx">
+      <Filter>AutLib\Mesh\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Surface\MeshAPI_SurfaceI.hxx">
+      <Filter>AutLib\Mesh\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Traits\MeshAPI_Traits.hxx">
+      <Filter>AutLib\Mesh\Traits</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Surface\MeshAPI_SurfaceInfo.hxx">
+      <Filter>AutLib\Mesh\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Surface\GModel\MeshAPI_gSurface.hxx">
+      <Filter>AutLib\Mesh\Surface\GModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Model\MeshAPI_Model.hxx">
+      <Filter>AutLib\Mesh\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Curve\MeshAPI_CurveMesh.hxx">
+      <Filter>AutLib\Mesh\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Curve\MeshAPI_CurveMeshI.hxx">
+      <Filter>AutLib\Mesh\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Info\MeshAPI_Info.hxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Analysis\Model\MeshAPI_ModelAnalysisInfo.hxx">
+      <Filter>AutLib\Mesh\Analysis\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Curve\GModel\MeshAPI_gCurveMesh.hxx">
+      <Filter>AutLib\Mesh\Curve\GModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Info\MeshAPI_Info_ModelAnalysis.hxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Info\MeshAPI_Info_NormalizedMetric.hxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Info\MeshAPI_Info_CurveMesh.hxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Info\MeshAPI_Info_PlaneBoundary.hxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Analysis\Boundary\MeshAPI_BndCurvesAnalysisInfo.hxx">
+      <Filter>AutLib\Mesh\Analysis\Boundary</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Info\MeshAPI_Info_BndCurveAnalysis.hxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Info\MeshAPI_Info_SurfMetricBounded.hxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Model\MeshAPI_ModelI.hxx">
+      <Filter>AutLib\Mesh\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Info\MeshAPI_Info_Model.hxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Model\MeshAPI_ModelInfo.hxx">
+      <Filter>AutLib\Mesh\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Model\GModel\MeshAPI_gModel.hxx">
+      <Filter>AutLib\Mesh\Model\GModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Info\MeshAPI_Info_EqualizerMetric.hxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Mesh\Info\MeshAPI_Info_FullIntSurfaceSizeMap2d.hxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutLib\Mesh\Analysis\Boundary\GModel\MeshAPI_gBndCurvesAnalysis.cxx">
+      <Filter>AutLib\Mesh\Analysis\Boundary\GModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Analysis\Model\MeshAPI_ModelAnalysis.cxx">
+      <Filter>AutLib\Mesh\Analysis\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Analysis\Model\GModel\MeshAPI_gModelAnalysis.cxx">
+      <Filter>AutLib\Mesh\Analysis\Model\GModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Surface\MeshAPI_SurfaceInfo.cxx">
+      <Filter>AutLib\Mesh\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Surface\MeshAPI_Surface.cxx">
+      <Filter>AutLib\Mesh\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Info\MeshAPI_Info.cxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Analysis\Model\MeshAPI_ModelAnalysisInfo.cxx">
+      <Filter>AutLib\Mesh\Analysis\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Info\MeshAPI_Info_ModelAnalysis.cxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Info\MeshAPI_Info_NormalizedMetric.cxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Info\MeshAPI_Info_CurveMesh.cxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Info\MeshAPI_Info_PlaneBoundary.cxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Analysis\Boundary\MeshAPI_BndCurvesAnalysisInfo.cxx">
+      <Filter>AutLib\Mesh\Analysis\Boundary</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Info\MeshAPI_Info_BndCurveAnalysis.cxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Info\MeshAPI_Info_SurfMetricBounded.cxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Model\MeshAPI_Model.cxx">
+      <Filter>AutLib\Mesh\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Info\MeshAPI_Info_Model.cxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Model\MeshAPI_ModelInfo.cxx">
+      <Filter>AutLib\Mesh\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Info\MeshAPI_Info_EqualizerMetric.cxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Mesh\Info\MeshAPI_Info_FullIntSurfaceSizeMap2d.cxx">
+      <Filter>AutLib\Mesh\Info</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

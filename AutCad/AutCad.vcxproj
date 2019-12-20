@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{D459F493-F7DB-4AD6-811A-A3EBFA61205F}</ProjectGuid>
+    <RootNamespace>AutCad</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(OPENCASCADE_INCLUDEDIR);$(SolutionDir)\Common\Armadillo;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCASCADE_INCLUDELIB);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(OPENCASCADE_INCLUDEDIR);$(SolutionDir)\Common\Armadillo;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCASCADE_INCLUDELIB);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)AutCad\AutLib\Cad\Models\Plane\Entity;$(SolutionDir)AutCad\AutLib\Cad\Models\Plane\Curve\Segment;$(SolutionDir)AutCad\AutLib\Cad\Models\Plane\Curve\Ellipse;$(SolutionDir)AutCad\AutLib\Cad\Models\Plane\Curve\CircularArc;$(SolutionDir)AutCad\AutLib\Cad\Models\Plane\Curve;$(SolutionDir)AutCad\AutLib\Cad\Models\Plane;$(SolutionDir)AutCad\AutLib\Cad\Plane;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Block;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Orientation;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Vertex;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Wire;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Ring;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Edge;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Curve;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Entity;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Surface;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Wire\par;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Wire;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Edge;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Plane;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Curve\par;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Curve;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities;$(SolutionDir)AutCad\AutLib\Cad\GModel;$(SolutionDir)AutCad\AutLib\Cad\Entities\Manager;$(SolutionDir)AutCad\AutLib\Cad\Entities\Block;$(SolutionDir)AutCad\AutLib\Cad\Entities\Curve;$(SolutionDir)AutCad\AutLib\Cad\Entities\Entity;$(SolutionDir)AutCad\AutLib\Cad\Tools\FastDiscret;$(SolutionDir)AutCad\AutLib\Cad\Tools;$(SolutionDir)AutNumeric\include;$(SolutionDir)AutGeom\include;$(SolutionDir)AutIO\include;$(SolutionDir)AutBase\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)AutCad\AutLib\Cad\Models\Plane\Entity;$(SolutionDir)AutCad\AutLib\Cad\Models\Plane\Curve\Segment;$(SolutionDir)AutCad\AutLib\Cad\Models\Plane\Curve\Ellipse;$(SolutionDir)AutCad\AutLib\Cad\Models\Plane\Curve\CircularArc;$(SolutionDir)AutCad\AutLib\Cad\Models\Plane\Curve;$(SolutionDir)AutCad\AutLib\Cad\Models\Plane;$(SolutionDir)AutCad\AutLib\Cad\Plane;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Block;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Orientation;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Vertex;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Wire;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Ring;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Edge;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Curve;$(SolutionDir)AutCad\AutLib\Cad\Plane\Entities\Entity;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Surface;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Wire\par;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Wire;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Edge;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Plane;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Curve\par;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities\Curve;$(SolutionDir)AutCad\AutLib\Cad\GModel\Entities;$(SolutionDir)AutCad\AutLib\Cad\GModel;$(SolutionDir)AutCad\AutLib\Cad\Entities\Manager;$(SolutionDir)AutCad\AutLib\Cad\Entities\Block;$(SolutionDir)AutCad\AutLib\Cad\Entities\Curve;$(SolutionDir)AutCad\AutLib\Cad\Entities\Entity;$(SolutionDir)AutCad\AutLib\Cad\Tools\FastDiscret;$(SolutionDir)AutCad\AutLib\Cad\Tools;$(SolutionDir)AutNumeric\include;$(SolutionDir)AutGeom\include;$(SolutionDir)AutIO\include;$(SolutionDir)AutBase\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AutLib\Cad\Entities\Block\Cad_BlockEntity.cxx" />
+    <ClCompile Include="AutLib\Cad\Entities\Curve\Cad_CurveInfo.cxx" />
+    <ClCompile Include="AutLib\Cad\Entities\Manager\Cad_EntityManager.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Cad3d_GModel.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Cad3d_GModelIO.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Curve\GModel_Curve.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Curve\par\GModel_parCurve.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Curve\par\GModel_parCurveIO.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Edge\GModel_Edge.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Plane\GModel_Plane.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Plane\GModel_PlaneIO.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Surface\GModel_Surface.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Surface\GModel_SurfaceIO.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Wire\GModel_Wire.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Wire\GModel_WireIO.cxx" />
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Wire\par\GModel_parWire.cxx" />
+    <ClCompile Include="AutLib\Cad\Models\Plane\Curve\Model_PlnCurve.cxx" />
+    <ClCompile Include="AutLib\Cad\Models\Plane\Curve\Segment\Model_PlnSegment.cxx" />
+    <ClCompile Include="AutLib\Cad\Models\Plane\Model_Plane.cxx" />
+    <ClCompile Include="AutLib\Cad\Plane\Cad2d_Plane.cxx" />
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Curve\Pln_Curve.cxx" />
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Curve\Pln_CurveIO.cxx" />
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Edge\Pln_Edge.cxx" />
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Orientation\Pln_Orientation.cxx" />
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Vertex\Pln_Vertex.cxx" />
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Wire\Pln_Wire.cxx" />
+    <ClCompile Include="AutLib\Cad\Tools\Cad_Tools.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutLib\Cad\Entities\Block\Cad_BlockEntity.hxx" />
+    <ClInclude Include="AutLib\Cad\Entities\Block\Cad_BlockEntityI.hxx" />
+    <ClInclude Include="AutLib\Cad\Entities\Curve\Cad_Curve.hxx" />
+    <ClInclude Include="AutLib\Cad\Entities\Curve\Cad_CurveInfo.hxx" />
+    <ClInclude Include="AutLib\Cad\Entities\Entity\Cad_EntityPrecision.hxx" />
+    <ClInclude Include="AutLib\Cad\Entities\Manager\Cad_EntityManager.hxx" />
+    <ClInclude Include="AutLib\Cad\Entities\Manager\Cad_EntityManagerI.hxx" />
+    <ClInclude Include="AutLib\Cad\GModel\Cad3d_GModel.hxx" />
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Curve\GModel_Curve.hxx" />
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Curve\par\GModel_parCurve.hxx" />
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Edge\GModel_Edge.hxx" />
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Plane\GModel_Plane.hxx" />
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Surface\GModel_Surface.hxx" />
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Wire\GModel_Wire.hxx" />
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Wire\par\GModel_parWire.hxx" />
+    <ClInclude Include="AutLib\Cad\Models\Plane\Curve\Model_PlnCurve.hxx" />
+    <ClInclude Include="AutLib\Cad\Models\Plane\Curve\Segment\Model_PlnSegment.hxx" />
+    <ClInclude Include="AutLib\Cad\Models\Plane\Entity\Model_PlnEntity.hxx" />
+    <ClInclude Include="AutLib\Cad\Models\Plane\Model_Plane.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Cad2d_Plane.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Cad2d_PlaneInfo.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Block\Pln_BlockEntity.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Curve\Pln_Curve.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Edge\Pln_Edge.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Entity\Pln_Entity.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Orientation\Pln_Orientation.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Ring\Pln_Ring.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Vertex\Pln_Vertex.hxx" />
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Wire\Pln_Wire.hxx" />
+    <ClInclude Include="AutLib\Cad\Tools\Cad_Tools.hxx" />
+    <ClInclude Include="AutLib\Cad\Tools\FastDiscret\Cad_FastDiscret_Parameters.hxx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

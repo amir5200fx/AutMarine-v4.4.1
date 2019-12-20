@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AutLib">
+      <UniqueIdentifier>{3e54f0f7-7d40-44c2-8e57-f6d3e06a69f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad">
+      <UniqueIdentifier>{5b69e90a-8394-4127-804a-8ff1843c7ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Entities">
+      <UniqueIdentifier>{94c5458c-a2b5-44d0-b5c2-da3ae73a9b3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\GModel">
+      <UniqueIdentifier>{fd4d43e6-765a-49cf-b97d-5499104fd761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane">
+      <UniqueIdentifier>{a8a6423c-8762-486e-964c-c9dacedd13c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Repair">
+      <UniqueIdentifier>{faf0b20a-faad-4293-a504-9a0342402767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Solid">
+      <UniqueIdentifier>{d9b2a145-eba6-4378-a16d-12f03e40046b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Tools">
+      <UniqueIdentifier>{430f7f88-e588-4083-bcab-e6d9ab8032a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Entities\Block">
+      <UniqueIdentifier>{fc5892b9-f419-4c79-8864-5d8fc626b486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Entities\Manager">
+      <UniqueIdentifier>{e5660972-b034-4312-953d-2427803e5286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\GModel\Entities">
+      <UniqueIdentifier>{9272ce57-1142-45e0-86d9-63e31113d658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\GModel\Entities\Curve">
+      <UniqueIdentifier>{20680628-8d05-488f-9621-ae4124d4a4fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\GModel\Entities\Edge">
+      <UniqueIdentifier>{a1b8d22e-f8e5-4e00-b286-e1bc0d42a9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\GModel\Entities\Plane">
+      <UniqueIdentifier>{b6084338-29fa-475b-ab20-98aa7631a75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\GModel\Entities\Surface">
+      <UniqueIdentifier>{f27325c6-5e16-4d72-a289-9443fbd21e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\GModel\Entities\Wire">
+      <UniqueIdentifier>{098d0dd1-2122-402e-aa24-8e6f8f5b6705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Entities\Curve">
+      <UniqueIdentifier>{1244e047-f08d-486a-87c9-c2779dde6535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\GModel\Entities\Curve\par">
+      <UniqueIdentifier>{b6164058-1855-4850-8d23-8660e90aca56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\GModel\Entities\Wire\par">
+      <UniqueIdentifier>{1f257f60-5c0a-45f0-a388-888854ecf42f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Tools\FastDiscret">
+      <UniqueIdentifier>{ab1ffa8d-8861-44d5-92d1-66d326bb9728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\Entities">
+      <UniqueIdentifier>{6759b9ce-8a1d-49db-812d-f066a4f0cb60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\Entities\Block">
+      <UniqueIdentifier>{69219161-b4a1-40a5-9f0a-709af2fcb17b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\Entities\Curve">
+      <UniqueIdentifier>{e1bfba20-352c-466d-85e8-159559247e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\Entities\Edge">
+      <UniqueIdentifier>{952e126d-f55c-44d5-a541-73d9cec97969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\Entities\Entity">
+      <UniqueIdentifier>{9570863e-d0f6-422f-bac4-8284be33b952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\Entities\Orientation">
+      <UniqueIdentifier>{84c072ec-52ae-42ec-9bf8-c99cef5541d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\Entities\Ring">
+      <UniqueIdentifier>{013c3b02-7a81-4922-97dc-169aa1697510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\Entities\Vertex">
+      <UniqueIdentifier>{c9465751-01ed-4e7b-9ab3-bf68b08e01aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Plane\Entities\Wire">
+      <UniqueIdentifier>{499e5153-a23f-4975-aced-2b5d147d21da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Entities\Entity">
+      <UniqueIdentifier>{0a8a4cb5-c32d-4ccb-93f2-c3c0ca83ab23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Models">
+      <UniqueIdentifier>{e6120bf3-46b5-4821-bcc2-c723c6565faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Models\Plane">
+      <UniqueIdentifier>{13779580-7bea-4feb-ba2e-575bc15a9d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Models\Plane\Entity">
+      <UniqueIdentifier>{0a736163-5e7a-4e04-bcbe-4f08cba37b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Models\Plane\RegularShapes">
+      <UniqueIdentifier>{f20a889e-8809-4fbf-965f-4579f614c8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Models\Plane\Curve">
+      <UniqueIdentifier>{04b36d5f-7d15-4667-9205-e4b10a5761fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Models\Plane\Curve\CircularArc">
+      <UniqueIdentifier>{bb8ee78f-03cc-4f39-9c2f-3571de6c7116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Models\Plane\Curve\Ellipse">
+      <UniqueIdentifier>{bf09e8bf-4644-4e3a-92ef-418843e87e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutLib\Cad\Models\Plane\Curve\Segment">
+      <UniqueIdentifier>{8c6458eb-f406-4b8c-be95-9566896f4d0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutLib\Cad\Entities\Block\Cad_BlockEntity.cxx">
+      <Filter>AutLib\Cad\Entities\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Entities\Manager\Cad_EntityManager.cxx">
+      <Filter>AutLib\Cad\Entities\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Entities\Curve\Cad_CurveInfo.cxx">
+      <Filter>AutLib\Cad\Entities\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Curve\GModel_Curve.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Wire\GModel_Wire.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Wire\par\GModel_parWire.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Wire\par</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Surface\GModel_Surface.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Surface</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Edge\GModel_Edge.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Edge</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Plane\GModel_Plane.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Plane\GModel_PlaneIO.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Cad3d_GModel.cxx">
+      <Filter>AutLib\Cad\GModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Cad3d_GModelIO.cxx">
+      <Filter>AutLib\Cad\GModel</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Tools\Cad_Tools.cxx">
+      <Filter>AutLib\Cad\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Curve\Pln_Curve.cxx">
+      <Filter>AutLib\Cad\Plane\Entities\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Edge\Pln_Edge.cxx">
+      <Filter>AutLib\Cad\Plane\Entities\Edge</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Orientation\Pln_Orientation.cxx">
+      <Filter>AutLib\Cad\Plane\Entities\Orientation</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Wire\Pln_Wire.cxx">
+      <Filter>AutLib\Cad\Plane\Entities\Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Vertex\Pln_Vertex.cxx">
+      <Filter>AutLib\Cad\Plane\Entities\Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Plane\Cad2d_Plane.cxx">
+      <Filter>AutLib\Cad\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Models\Plane\Model_Plane.cxx">
+      <Filter>AutLib\Cad\Models\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Models\Plane\Curve\Model_PlnCurve.cxx">
+      <Filter>AutLib\Cad\Models\Plane\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Models\Plane\Curve\Segment\Model_PlnSegment.cxx">
+      <Filter>AutLib\Cad\Models\Plane\Curve\Segment</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\Plane\Entities\Curve\Pln_CurveIO.cxx">
+      <Filter>AutLib\Cad\Plane\Entities\Curve</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Curve\par\GModel_parCurveIO.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Curve\par</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Wire\GModel_WireIO.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Wire</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Curve\par\GModel_parCurve.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Curve\par</Filter>
+    </ClCompile>
+    <ClCompile Include="AutLib\Cad\GModel\Entities\Surface\GModel_SurfaceIO.cxx">
+      <Filter>AutLib\Cad\GModel\Entities\Surface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AutLib\Cad\Entities\Block\Cad_BlockEntity.hxx">
+      <Filter>AutLib\Cad\Entities\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Entities\Block\Cad_BlockEntityI.hxx">
+      <Filter>AutLib\Cad\Entities\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Entities\Manager\Cad_EntityManager.hxx">
+      <Filter>AutLib\Cad\Entities\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Entities\Manager\Cad_EntityManagerI.hxx">
+      <Filter>AutLib\Cad\Entities\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Entities\Curve\Cad_Curve.hxx">
+      <Filter>AutLib\Cad\Entities\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Entities\Curve\Cad_CurveInfo.hxx">
+      <Filter>AutLib\Cad\Entities\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Curve\GModel_Curve.hxx">
+      <Filter>AutLib\Cad\GModel\Entities\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Curve\par\GModel_parCurve.hxx">
+      <Filter>AutLib\Cad\GModel\Entities\Curve\par</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Edge\GModel_Edge.hxx">
+      <Filter>AutLib\Cad\GModel\Entities\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Wire\GModel_Wire.hxx">
+      <Filter>AutLib\Cad\GModel\Entities\Wire</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Wire\par\GModel_parWire.hxx">
+      <Filter>AutLib\Cad\GModel\Entities\Wire\par</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Surface\GModel_Surface.hxx">
+      <Filter>AutLib\Cad\GModel\Entities\Surface</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\GModel\Entities\Plane\GModel_Plane.hxx">
+      <Filter>AutLib\Cad\GModel\Entities\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\GModel\Cad3d_GModel.hxx">
+      <Filter>AutLib\Cad\GModel</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Tools\Cad_Tools.hxx">
+      <Filter>AutLib\Cad\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Tools\FastDiscret\Cad_FastDiscret_Parameters.hxx">
+      <Filter>AutLib\Cad\Tools\FastDiscret</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Curve\Pln_Curve.hxx">
+      <Filter>AutLib\Cad\Plane\Entities\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Entity\Pln_Entity.hxx">
+      <Filter>AutLib\Cad\Plane\Entities\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Block\Pln_BlockEntity.hxx">
+      <Filter>AutLib\Cad\Plane\Entities\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Vertex\Pln_Vertex.hxx">
+      <Filter>AutLib\Cad\Plane\Entities\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Entities\Entity\Cad_EntityPrecision.hxx">
+      <Filter>AutLib\Cad\Entities\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Edge\Pln_Edge.hxx">
+      <Filter>AutLib\Cad\Plane\Entities\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Ring\Pln_Ring.hxx">
+      <Filter>AutLib\Cad\Plane\Entities\Ring</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Wire\Pln_Wire.hxx">
+      <Filter>AutLib\Cad\Plane\Entities\Wire</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Entities\Orientation\Pln_Orientation.hxx">
+      <Filter>AutLib\Cad\Plane\Entities\Orientation</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Cad2d_Plane.hxx">
+      <Filter>AutLib\Cad\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Plane\Cad2d_PlaneInfo.hxx">
+      <Filter>AutLib\Cad\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Models\Plane\Entity\Model_PlnEntity.hxx">
+      <Filter>AutLib\Cad\Models\Plane\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Models\Plane\Model_Plane.hxx">
+      <Filter>AutLib\Cad\Models\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Models\Plane\Curve\Model_PlnCurve.hxx">
+      <Filter>AutLib\Cad\Models\Plane\Curve</Filter>
+    </ClInclude>
+    <ClInclude Include="AutLib\Cad\Models\Plane\Curve\Segment\Model_PlnSegment.hxx">
+      <Filter>AutLib\Cad\Models\Plane\Curve\Segment</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
